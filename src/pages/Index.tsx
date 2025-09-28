@@ -4,8 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import Icon from "@/components/ui/icon";
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import { useState } from 'react';
 
 const Index = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const heroSection = useScrollAnimation();
   const targetSection = useScrollAnimation();
   const authorSection = useScrollAnimation();
@@ -22,13 +24,60 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 max-w-full">
           <div className="flex items-center justify-between">
             <h1 className="text-xl md:text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Бюро17</h1>
+            
+            {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
               <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Программа</a>
               <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Тарифы</a>
               <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">FAQ</a>
               <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 text-sm lg:text-base px-3 lg:px-4" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>Стать артистом</Button>
             </div>
+
+            {/* Mobile Menu Button */}
+            <button 
+              className="md:hidden text-white p-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Открыть меню"
+            >
+              <Icon name={isMobileMenuOpen ? "X" : "Menu"} size={24} />
+            </button>
           </div>
+
+          {/* Mobile Menu */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden mt-4 pb-4 border-t border-blue-500/20">
+              <div className="flex flex-col space-y-4 pt-4">
+                <a 
+                  href="#program" 
+                  className="text-gray-300 hover:text-yellow-400 transition-colors text-base px-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Программа
+                </a>
+                <a 
+                  href="#tariffs" 
+                  className="text-gray-300 hover:text-yellow-400 transition-colors text-base px-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Тарифы
+                </a>
+                <a 
+                  href="#faq" 
+                  className="text-gray-300 hover:text-yellow-400 transition-colors text-base px-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  FAQ
+                </a>
+                <Button 
+                  className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 transition-all duration-500 text-base w-full mt-2" 
+                  style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Стать артистом
+                </Button>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 
