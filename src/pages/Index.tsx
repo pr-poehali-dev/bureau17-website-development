@@ -319,10 +319,10 @@ const Index = () => {
                     </li>
                   </ul>
                   <div className="space-y-2 pt-4">
-                    <div className="relative p-0.5 bg-gradient-border rounded-full">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
                     </div>
-                    <div className="relative p-0.5 bg-gradient-border rounded-full">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">В рассрочку</Button>
                     </div>
                   </div>
@@ -366,10 +366,10 @@ const Index = () => {
                     <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 30 (осталось 19)</p>
                   </div>
                   <div className="space-y-2 pt-4">
-                    <div className="relative p-0.5 bg-gradient-border rounded-full">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
                     </div>
-                    <div className="relative p-0.5 bg-gradient-border rounded-full">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">В рассрочку</Button>
                     </div>
                   </div>
@@ -405,10 +405,10 @@ const Index = () => {
                     <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 7 (осталось 6)</p>
                   </div>
                   <div className="space-y-2 pt-4">
-                    <div className="relative p-0.5 bg-gradient-border rounded-full">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
                     </div>
-                    <div className="relative p-0.5 bg-gradient-border rounded-full">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">В рассрочку</Button>
                     </div>
                   </div>
