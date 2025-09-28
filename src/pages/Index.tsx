@@ -199,7 +199,7 @@ const Index = () => {
                     </div>
                   </div>
                   <h4 className="text-xl font-semibold bg-gradient-text bg-clip-text text-transparent mb-2">Промо</h4>
-                  <p className="text-gray-300 max-w-xs">
+                  <p className="bg-gradient-text bg-clip-text text-transparent max-w-xs font-semibold" style={{textShadow: '0 0 10px rgba(59, 130, 246, 0.8), 0 0 20px rgba(59, 130, 246, 0.4)'}}>
                     Получаешь миллионы просмотров и тысячи слушателей
                   </p>
                 </div>
