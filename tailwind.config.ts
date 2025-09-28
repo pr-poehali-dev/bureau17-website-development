@@ -148,7 +148,8 @@ export default {
 				'gradient-text': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 25%, #d97706 50%, #b45309 75%, #92400e 100%)',
 				'gradient-blue': 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
 				'gradient-gold': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)',
-				'gradient-gold-glow': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)'
+				'gradient-gold-glow': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)',
+				'gradient-border': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 30%, #ec4899 60%, #a855f7 100%)'
 			},
 			backgroundSize: {
 				'200': '200% 200%'
