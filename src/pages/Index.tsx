@@ -109,6 +109,20 @@ const Index = () => {
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
               Я занимаюсь музыкой с 2016 года. Начав с 50 прослушиваний и первых треков, я пришёл к 2млн подписчиков и набрал более 5млн прослушиваний на своих песнях, даже не смотря на свой дефект в речи
             </p>
+            
+            {/* Denis Portrait with Blue Glow */}
+            <div className="mb-12 flex justify-center">
+              <div className="relative">
+                <div className="absolute inset-0 bg-blue-500/30 blur-2xl rounded-full scale-110"></div>
+                <div className="relative bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-1 rounded-full">
+                  <img 
+                    src="https://cdn.poehali.dev/files/f038d98c-8c99-4c4f-928d-52ca0855dade.png"
+                    alt="Денис Авантюрист"
+                    className="w-64 h-64 object-cover rounded-full shadow-2xl shadow-blue-500/30"
+                  />
+                </div>
+              </div>
+            </div>
             <p className="text-lg text-gray-300 leading-relaxed">
               <span className="font-semibold bg-gradient-text bg-clip-text text-transparent">Эволюция артистов</span> – это стратегия из 17+ практических уроков с примерами и заданиями. Получи весь мой опыт, все наработки и знания за 30 дней в одном продукте
             </p>
