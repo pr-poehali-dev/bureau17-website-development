@@ -18,15 +18,15 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-dark">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-purple-500/20 z-50">
+      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-white">Бюро17</h1>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors">Программа</a>
-              <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors">Тарифы</a>
-              <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors">FAQ</a>
-              <Button className="bg-gradient-purple hover:bg-gradient-purple/90 text-white border-0">Стать артистом</Button>
+              <a href="#program" className="text-gray-300 hover:text-blue-400 transition-colors">Программа</a>
+              <a href="#tariffs" className="text-gray-300 hover:text-blue-400 transition-colors">Тарифы</a>
+              <a href="#faq" className="text-gray-300 hover:text-blue-400 transition-colors">FAQ</a>
+              <Button className="bg-gradient-blue hover:bg-gradient-blue/90 text-white border-0">Стать артистом</Button>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Index = () => {
             <p className="text-lg text-gray-400 mb-8">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
-            <Button size="lg" className="bg-gradient-purple hover:bg-gradient-purple/90 text-white px-12 py-6 text-xl rounded-full border-0">
+            <Button size="lg" className="bg-gradient-blue hover:bg-gradient-blue/90 text-white px-12 py-6 text-xl rounded-full border-0">
               Стать артистом
             </Button>
           </div>
@@ -75,9 +75,9 @@ const Index = () => {
           <div className={`transition-all duration-1000 ${targetSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-4xl font-bold text-center mb-12 text-white">Кому подходит?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
-                  <Icon name="Mic" className="w-12 h-12 text-yellow-400 mb-4" />
+                  <Icon name="Mic" className="w-12 h-12 text-blue-400 mb-4" />
                   <CardTitle className="text-xl text-white">Начинающий музыкант</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -87,9 +87,9 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
-                  <Icon name="Music" className="w-12 h-12 text-yellow-400 mb-4" />
+                  <Icon name="Music" className="w-12 h-12 text-blue-400 mb-4" />
                   <CardTitle className="text-xl text-white">Действующий артист</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -99,9 +99,9 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
-                  <Icon name="Star" className="w-12 h-12 text-yellow-400 mb-4" />
+                  <Icon name="Star" className="w-12 h-12 text-blue-400 mb-4" />
                   <CardTitle className="text-xl text-white">Будущая звезда</CardTitle>
                 </CardHeader>
                 <CardContent>

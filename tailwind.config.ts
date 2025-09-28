@@ -115,9 +115,9 @@ export default {
 				'body': ['Open Sans', 'sans-serif']
 			},
 			backgroundImage: {
-				'gradient-dark': 'linear-gradient(135deg, #1e1b4b 0%, #312e81 25%, #6b21a8 50%, #7c2d12 75%, #0f172a 100%)',
-				'gradient-text': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 25%, #d97706 50%, #92400e 75%, #451a03 100%)',
-				'gradient-purple': 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 50%, #6d28d9 100%)'
+				'gradient-dark': 'radial-gradient(ellipse at 20% 80%, #0c4a6e 0%, #082f49 20%, #0f172a 45%), radial-gradient(ellipse at 80% 20%, #164e63 0%, #0e7490 30%, #0f172a 60%), radial-gradient(ellipse at 40% 40%, #075985 0%, #0369a1 20%, #0f172a 50%)',
+				'gradient-text': 'linear-gradient(135deg, #60a5fa 0%, #3b82f6 25%, #2563eb 50%, #1d4ed8 75%, #1e40af 100%)',
+				'gradient-blue': 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)'
 			}
 		}
 	},
