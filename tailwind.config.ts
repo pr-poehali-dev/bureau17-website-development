@@ -114,8 +114,11 @@ export default {
 					'100%': { backgroundPosition: '200% center' }
 				},
 				'blue-glow': {
-					'0%, 100%': { boxShadow: '0 0 25px rgba(14, 165, 233, 0.4), 0 0 50px rgba(14, 165, 233, 0.2), 0 0 75px rgba(14, 165, 233, 0.1)' },
-					'50%': { boxShadow: '0 0 35px rgba(14, 165, 233, 0.6), 0 0 70px rgba(14, 165, 233, 0.3), 0 0 100px rgba(14, 165, 233, 0.15)' }
+					'0%': { boxShadow: '0 0 25px rgba(14, 165, 233, 0.3), 0 0 50px rgba(14, 165, 233, 0.15), 0 0 75px rgba(14, 165, 233, 0.08)' },
+					'25%': { boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)' },
+					'50%': { boxShadow: '0 0 35px rgba(14, 165, 233, 0.5), 0 0 70px rgba(14, 165, 233, 0.25), 0 0 105px rgba(14, 165, 233, 0.12)' },
+					'75%': { boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)' },
+					'100%': { boxShadow: '0 0 25px rgba(14, 165, 233, 0.3), 0 0 50px rgba(14, 165, 233, 0.15), 0 0 75px rgba(14, 165, 233, 0.08)' }
 				},
 				'bg-shift': {
 					'0%': { backgroundPosition: '0% 50%' },
@@ -133,7 +136,7 @@ export default {
 				'float': 'float 3s ease-in-out infinite',
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
 				'text-shimmer': 'text-shimmer 2s ease-in-out infinite',
-				'blue-glow': 'blue-glow 60s ease-in-out infinite',
+				'blue-glow': 'blue-glow 45s linear infinite',
 				'bg-shift': 'bg-shift 20s ease-in-out infinite'
 			},
 			fontFamily: {
