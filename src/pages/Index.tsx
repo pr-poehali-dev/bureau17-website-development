@@ -16,7 +16,7 @@ const Index = () => {
   const faqSection = useScrollAnimation();
 
   return (
-    <div className="min-h-screen bg-gradient-dark bg-size-200 animate-bg-shift overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-dark bg-size-200 animate-bg-shift overflow-x-hidden overflow-y-auto scrollbar-hide">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50 overflow-x-hidden">
         <div className="container mx-auto px-4 py-4 max-w-full">
