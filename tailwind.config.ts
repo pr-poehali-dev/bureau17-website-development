@@ -100,6 +100,18 @@ export default {
 				'slide-in-left': {
 					'0%': { transform: 'translateX(-50px)', opacity: '0' },
 					'100%': { transform: 'translateX(0)', opacity: '1' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { boxShadow: '0 0 20px rgba(59, 130, 246, 0.5)' },
+					'50%': { boxShadow: '0 0 40px rgba(59, 130, 246, 0.8)' }
+				},
+				'text-shimmer': {
+					'0%': { backgroundPosition: '-200% center' },
+					'100%': { backgroundPosition: '200% center' }
 				}
 			},
 			animation: {
@@ -108,16 +120,23 @@ export default {
 				'fade-in': 'fade-in 0.3s ease-out',
 				'scale-in': 'scale-in 0.2s ease-out',
 				'slide-up': 'slide-up 0.6s ease-out',
-				'slide-in-left': 'slide-in-left 0.6s ease-out'
+				'slide-in-left': 'slide-in-left 0.6s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+				'text-shimmer': 'text-shimmer 2s ease-in-out infinite'
 			},
 			fontFamily: {
 				'heading': ['Montserrat', 'sans-serif'],
 				'body': ['Open Sans', 'sans-serif']
 			},
 			backgroundImage: {
-				'gradient-dark': 'radial-gradient(ellipse at 20% 80%, #0c4a6e 0%, #082f49 20%, #0f172a 45%), radial-gradient(ellipse at 80% 20%, #164e63 0%, #0e7490 30%, #0f172a 60%), radial-gradient(ellipse at 40% 40%, #075985 0%, #0369a1 20%, #0f172a 50%)',
-				'gradient-text': 'linear-gradient(135deg, #60a5fa 0%, #3b82f6 25%, #2563eb 50%, #1d4ed8 75%, #1e40af 100%)',
-				'gradient-blue': 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)'
+				'gradient-dark': 'radial-gradient(circle at 15% 85%, #0ea5e9 0%, #0284c7 15%, #000000 35%), radial-gradient(circle at 85% 15%, #06b6d4 0%, #0891b2 20%, #000000 40%), radial-gradient(circle at 50% 50%, #0369a1 0%, #0284c7 25%, #000000 50%), radial-gradient(circle at 25% 30%, #3b82f6 0%, #1d4ed8 30%, #000000 60%)',
+				'gradient-text': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 25%, #d97706 50%, #b45309 75%, #92400e 100%)',
+				'gradient-blue': 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
+				'gradient-gold': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)'
+			},
+			backgroundSize: {
+				'200': '200% 200%'
 			}
 		}
 	},

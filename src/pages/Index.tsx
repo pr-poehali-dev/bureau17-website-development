@@ -21,12 +21,12 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-white">Бюро17</h1>
+            <h1 className="text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Бюро17</h1>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#program" className="text-gray-300 hover:text-blue-400 transition-colors">Программа</a>
-              <a href="#tariffs" className="text-gray-300 hover:text-blue-400 transition-colors">Тарифы</a>
-              <a href="#faq" className="text-gray-300 hover:text-blue-400 transition-colors">FAQ</a>
-              <Button className="bg-gradient-blue hover:bg-gradient-blue/90 text-white border-0">Стать артистом</Button>
+              <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">Программа</a>
+              <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">Тарифы</a>
+              <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">FAQ</a>
+              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-105 transition-all duration-300 animate-pulse-glow">Стать артистом</Button>
             </div>
           </div>
         </div>
@@ -36,8 +36,8 @@ const Index = () => {
       <section ref={heroSection.ref} className="pt-24 pb-16 px-6">
         <div className="container mx-auto max-w-6xl">
           <div className={`text-center mb-16 transition-all duration-1000 ${heroSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent">АРТИСТОВ</span>
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300">
+              ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">АРТИСТОВ</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-4xl mx-auto">
               Твои песни заслуживают миллионы прослушиваний.<br />
@@ -46,7 +46,7 @@ const Index = () => {
             <p className="text-lg text-gray-400 mb-8">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
-            <Button size="lg" className="bg-gradient-blue hover:bg-gradient-blue/90 text-white px-12 py-6 text-xl rounded-full border-0">
+            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-110 transition-all duration-300 animate-float">
               Стать артистом
             </Button>
           </div>
@@ -77,7 +77,7 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
-                  <Icon name="Mic" className="w-12 h-12 text-blue-400 mb-4" />
+                  <Icon name="Mic" className="w-12 h-12 text-yellow-400 mb-4 hover:scale-110 transition-transform duration-300" />
                   <CardTitle className="text-xl text-white">Начинающий музыкант</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -89,7 +89,7 @@ const Index = () => {
 
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
-                  <Icon name="Music" className="w-12 h-12 text-blue-400 mb-4" />
+                  <Icon name="Music" className="w-12 h-12 text-yellow-400 mb-4 hover:scale-110 transition-transform duration-300" />
                   <CardTitle className="text-xl text-white">Действующий артист</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -101,7 +101,7 @@ const Index = () => {
 
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
-                  <Icon name="Star" className="w-12 h-12 text-blue-400 mb-4" />
+                  <Icon name="Star" className="w-12 h-12 text-yellow-400 mb-4 hover:scale-110 transition-transform duration-300" />
                   <CardTitle className="text-xl text-white">Будущая звезда</CardTitle>
                 </CardHeader>
                 <CardContent>
