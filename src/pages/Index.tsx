@@ -111,16 +111,15 @@ const Index = () => {
             </p>
             
             {/* Denis Portrait with Blue Glow */}
-            <div className="mb-12 flex justify-center">
+            <div className="mb-12 flex justify-center relative">
               <div className="relative">
-                <div className="absolute inset-0 bg-blue-500/30 blur-3xl scale-125"></div>
-                <div className="relative">
-                  <img 
-                    src="https://cdn.poehali.dev/files/17be61bc-8a81-4d19-87e3-41f9a2707823.png"
-                    alt="Денис Авантюрист - социальные сети"
-                    className="w-full max-w-4xl h-auto object-contain shadow-2xl shadow-blue-500/40"
-                  />
-                </div>
+                <div className="absolute inset-0 bg-blue-500/20 blur-3xl scale-110"></div>
+                <img 
+                  src="https://cdn.poehali.dev/files/17be61bc-8a81-4d19-87e3-41f9a2707823.png"
+                  alt="Денис Авантюрист - социальные сети"
+                  className="w-full max-w-4xl h-auto object-contain drop-shadow-[0_0_20px_rgba(59,130,246,0.5)] filter brightness-105"
+                  style={{ filter: 'drop-shadow(0 0 15px rgba(255,255,255,0.3)) drop-shadow(0 0 30px rgba(59,130,246,0.4))' }}
+                />
               </div>
             </div>
             <p className="text-lg text-gray-300 leading-relaxed">
