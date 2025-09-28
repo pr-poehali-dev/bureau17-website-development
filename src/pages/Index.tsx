@@ -113,12 +113,12 @@ const Index = () => {
             {/* Denis Portrait with Blue Glow */}
             <div className="mb-12 flex justify-center">
               <div className="relative">
-                <div className="absolute inset-0 bg-blue-500/30 blur-2xl rounded-full scale-110"></div>
-                <div className="relative bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-1 rounded-full">
+                <div className="absolute inset-0 bg-blue-500/30 blur-2xl scale-110"></div>
+                <div className="relative">
                   <img 
                     src="https://cdn.poehali.dev/files/f038d98c-8c99-4c4f-928d-52ca0855dade.png"
                     alt="Денис Авантюрист"
-                    className="w-64 h-64 object-cover rounded-full shadow-2xl shadow-blue-500/30"
+                    className="w-80 h-auto object-contain shadow-2xl shadow-blue-500/30"
                   />
                 </div>
               </div>
