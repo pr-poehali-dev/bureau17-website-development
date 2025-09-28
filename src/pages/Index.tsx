@@ -193,12 +193,12 @@ const Index = () => {
 
                 {/* Step 4 */}
                 <div className="flex flex-col items-center">
-                  <div className="relative p-0.5 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full mb-6">
+                  <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6" style={{boxShadow: '0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(59, 130, 246, 0.4)'}}>
                     <div className="w-28 h-28 rounded-full bg-black flex items-center justify-center">
                       <span className="text-3xl font-bold text-white">4</span>
                     </div>
                   </div>
-                  <h4 className="text-xl font-semibold text-white mb-2">Промо</h4>
+                  <h4 className="text-xl font-semibold bg-gradient-text bg-clip-text text-transparent mb-2">Промо</h4>
                   <p className="text-gray-300 max-w-xs">
                     Получаешь миллионы просмотров и тысячи слушателей
                   </p>
