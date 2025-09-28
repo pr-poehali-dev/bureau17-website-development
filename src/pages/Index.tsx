@@ -148,10 +148,62 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="text-center p-8 bg-white/10 backdrop-blur-sm rounded-xl border border-yellow-400/20">
-              <p className="text-2xl font-semibold bg-gradient-text bg-clip-text text-transparent">
-                Стратегия → Трек → Сниппет → Промо → Контент → Слушатели
-              </p>
+            <div className="text-center p-8 bg-white/10 backdrop-blur-sm rounded-xl border border-yellow-400/20 mb-16">
+              <h3 className="text-3xl font-bold text-white mb-12">Вот как она работает:</h3>
+              
+              <div className="space-y-16">
+                {/* Step 1 */}
+                <div className="flex flex-col items-center">
+                  <div className="relative">
+                    <div className="w-20 h-20 rounded-full border-2 border-gradient-gold bg-black flex items-center justify-center mb-6">
+                      <span className="text-2xl font-bold text-white">1</span>
+                    </div>
+                  </div>
+                  <h4 className="text-xl font-semibold text-white mb-2">Стратегия</h4>
+                  <p className="text-gray-300 max-w-xs">
+                    Получаешь огромную выборку залетевших роликов конкурентов
+                  </p>
+                </div>
+
+                {/* Step 2 */}
+                <div className="flex flex-col items-center">
+                  <div className="relative">
+                    <div className="w-20 h-20 rounded-full border-2 border-gradient-gold bg-black flex items-center justify-center mb-6">
+                      <span className="text-2xl font-bold text-white">2</span>
+                    </div>
+                  </div>
+                  <h4 className="text-xl font-semibold text-white mb-2">Трек</h4>
+                  <p className="text-gray-300 max-w-xs">
+                    Снимаешь на похожие темы
+                  </p>
+                </div>
+
+                {/* Step 3 */}
+                <div className="flex flex-col items-center">
+                  <div className="relative">
+                    <div className="w-24 h-24 rounded-full bg-gradient-gold flex items-center justify-center mb-6">
+                      <span className="text-2xl font-bold text-black">3</span>
+                    </div>
+                  </div>
+                  <h4 className="text-xl font-semibold text-white mb-2">Сниппет</h4>
+                  <p className="text-gray-300 max-w-xs">
+                    Оптимизируешь под алгоритмы
+                  </p>
+                </div>
+
+                {/* Step 4 */}
+                <div className="flex flex-col items-center">
+                  <div className="relative">
+                    <div className="w-28 h-28 rounded-full bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center mb-6">
+                      <span className="text-3xl font-bold text-white">4</span>
+                    </div>
+                  </div>
+                  <h4 className="text-xl font-semibold text-white mb-2">Промо</h4>
+                  <p className="text-gray-300 max-w-xs">
+                    Получаешь миллионы просмотров и тысячи слушателей
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
