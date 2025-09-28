@@ -479,7 +479,7 @@ const Index = () => {
             <h2 className="text-4xl font-bold text-center mb-12 text-white">Частые вопросы</h2>
             
             <div className="space-y-6">
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-gradient-gold transition-all duration-500 hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]">
                 <CardHeader>
                   <CardTitle className="text-lg text-white">Подойдёт ли мне, если у меня нет ни одного трека?</CardTitle>
                 </CardHeader>
@@ -488,7 +488,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-gradient-gold transition-all duration-500 hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]">
                 <CardHeader>
                   <CardTitle className="text-lg text-white">А если я стесняюсь снимать себя?</CardTitle>
                 </CardHeader>
@@ -497,7 +497,7 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-gradient-gold transition-all duration-500 hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]">
                 <CardHeader>
                   <CardTitle className="text-lg text-white">Нужен ли бюджет на рекламу?</CardTitle>
                 </CardHeader>
