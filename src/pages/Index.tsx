@@ -51,21 +51,7 @@ const Index = () => {
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-            <div className="text-center animate-scale-in">
-              <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent mb-2">2млн+</div>
-              <div className="text-gray-300">подписчиков</div>
-            </div>
-            <div className="text-center animate-scale-in">
-              <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent mb-2">5млн+</div>
-              <div className="text-gray-300">прослушиваний</div>
-            </div>
-            <div className="text-center animate-scale-in">
-              <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent mb-2">17+</div>
-              <div className="text-gray-300">практических уроков</div>
-            </div>
-          </div>
+
         </div>
       </section>
 
