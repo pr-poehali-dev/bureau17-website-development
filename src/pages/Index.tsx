@@ -16,37 +16,37 @@ const Index = () => {
   const faqSection = useScrollAnimation();
 
   return (
-    <div className="min-h-screen bg-gradient-dark bg-size-200 animate-bg-shift">
+    <div className="min-h-screen bg-gradient-dark bg-size-200 animate-bg-shift overflow-x-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50">
-        <div className="container mx-auto px-6 py-4">
+      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50 overflow-x-hidden">
+        <div className="container mx-auto px-4 py-4 max-w-full">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Бюро17</h1>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">Программа</a>
-              <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">Тарифы</a>
-              <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">FAQ</a>
-              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>Стать артистом</Button>
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Бюро17</h1>
+            <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
+              <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Программа</a>
+              <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Тарифы</a>
+              <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">FAQ</a>
+              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 text-sm lg:text-base px-3 lg:px-4" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>Стать артистом</Button>
             </div>
           </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section ref={heroSection.ref} className="pt-24 pb-16 px-6">
+      <section ref={heroSection.ref} className="pt-24 pb-16 px-4 overflow-x-hidden">
         <div className="container mx-auto max-w-6xl">
           <div className={`text-center mb-16 transition-all duration-1000 ${heroSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300 break-words">
               ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">АРТИСТОВ</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-4xl mx-auto">
-              Твои песни заслуживают миллионы прослушиваний.<br />
-              Я покажу, как этого добиться за 30 дней
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 max-w-4xl mx-auto px-2">
+              Твои песни заслуживают миллионы прослушиваний.<br className="hidden sm:block" />
+              <span className="block sm:inline"> Я покажу, как этого добиться за 30 дней</span>
             </p>
-            <p className="text-lg text-gray-400 mb-8">
+            <p className="text-base md:text-lg text-gray-400 mb-8 px-2">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
-            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
+            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-6 sm:px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
               Стать артистом
             </Button>
           </div>
@@ -56,11 +56,11 @@ const Index = () => {
       </section>
 
       {/* Target Audience */}
-      <section ref={targetSection.ref} className="py-16 bg-black/40 backdrop-blur-sm">
-        <div className="container mx-auto px-6 max-w-6xl">
+      <section ref={targetSection.ref} className="py-16 bg-black/40 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className={`transition-all duration-1000 ${targetSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-4xl font-bold text-center mb-12 text-white">Кому подходит?</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
                   <Icon name="Mic" className="w-12 h-12 text-yellow-400 mb-4 hover:scale-110 transition-transform duration-300" />
@@ -274,12 +274,12 @@ const Index = () => {
       </section>
 
       {/* Tariffs Section */}
-      <section ref={tariffsSection.ref} id="tariffs" className="py-16 bg-black/40 backdrop-blur-sm">
-        <div className="container mx-auto px-6 max-w-6xl">
+      <section ref={tariffsSection.ref} id="tariffs" className="py-16 bg-black/40 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className={`transition-all duration-1000 ${tariffsSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-4xl font-bold text-center mb-12 text-white">ТАРИФЫ</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
               {/* Дебют */}
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
                 <CardHeader className="text-center">
@@ -422,12 +422,12 @@ const Index = () => {
       </section>
 
       {/* Guarantees */}
-      <section ref={guaranteesSection.ref} className="py-16">
-        <div className="container mx-auto px-6 max-w-4xl">
+      <section ref={guaranteesSection.ref} className="py-16 overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-4xl">
           <div className={`transition-all duration-1000 ${guaranteesSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-4xl font-bold text-center mb-12 text-white">Ты получаешь <span className="bg-gradient-text bg-clip-text text-transparent">2 гарантии</span></h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
                 <CardHeader>
                   <Icon name="Shield" className="w-12 h-12 text-yellow-400 mb-4" />
@@ -457,8 +457,8 @@ const Index = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-16 bg-black">
-        <div className="container mx-auto px-6 max-w-4xl text-center">
+      <section className="py-16 bg-black overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-4xl font-bold mb-8 text-white">
             «Если ты не попробуешь сейчас — через год будешь на том же месте, где сегодня. Только с ещё одной стопкой «треков» и завистью к тем, кто <span className="bg-gradient-text bg-clip-text text-transparent">рискнул</span>».
           </h2>
@@ -469,8 +469,8 @@ const Index = () => {
       </section>
 
       {/* FAQ */}
-      <section ref={faqSection.ref} id="faq" className="py-16 bg-black/40 backdrop-blur-sm">
-        <div className="container mx-auto px-6 max-w-4xl">
+      <section ref={faqSection.ref} id="faq" className="py-16 bg-black/40 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-4xl">
           <div className={`transition-all duration-1000 ${faqSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-4xl font-bold text-center mb-12 text-white">Частые вопросы</h2>
             
@@ -507,8 +507,8 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-black text-white">
-        <div className="container mx-auto px-6 text-center">
+      <footer className="py-12 bg-black text-white overflow-x-hidden">
+        <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Бюро17</h2>
           <p className="text-gray-300">Эволюция артистов - твой путь к миллионам прослушиваний</p>
         </div>
