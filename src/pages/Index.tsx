@@ -26,7 +26,7 @@ const Index = () => {
               <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">Программа</a>
               <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">Тарифы</a>
               <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300">FAQ</a>
-              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-105 transition-all duration-300 animate-pulse-glow">Стать артистом</Button>
+              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 hover:shadow-lg">Стать артистом</Button>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Index = () => {
             <p className="text-lg text-gray-400 mb-8">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
-            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-110 transition-all duration-300 animate-float">
+            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500 hover:shadow-2xl hover:shadow-yellow-400/20">
               Стать артистом
             </Button>
           </div>
@@ -468,7 +468,7 @@ const Index = () => {
           <h2 className="text-4xl font-bold mb-8 text-white">
             «Если ты не попробуешь сейчас — через год будешь на том же месте, где сегодня. Только с ещё одной стопкой «треков» и завистью к тем, кто <span className="bg-gradient-text bg-clip-text text-transparent">рискнул</span>».
           </h2>
-          <Button size="lg" className="bg-gradient-purple hover:bg-gradient-purple/90 text-white px-12 py-6 text-xl rounded-full border-0">
+          <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500 hover:shadow-2xl hover:shadow-yellow-400/20">
             Стать артистом сейчас
           </Button>
         </div>
