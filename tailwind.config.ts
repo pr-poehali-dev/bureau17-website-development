@@ -133,7 +133,7 @@ export default {
 				'float': 'float 3s ease-in-out infinite',
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
 				'text-shimmer': 'text-shimmer 2s ease-in-out infinite',
-				'blue-glow': 'blue-glow 6s ease-in-out infinite',
+				'blue-glow': 'blue-glow 18s ease-in-out infinite',
 				'bg-shift': 'bg-shift 20s ease-in-out infinite'
 			},
 			fontFamily: {
