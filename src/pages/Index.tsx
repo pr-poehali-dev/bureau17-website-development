@@ -284,11 +284,11 @@ const Index = () => {
             <div className="space-y-8">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
                 <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <Badge className="bg-gradient-purple text-white text-lg px-4 py-2 border-0">1 модуль</Badge>
-                    <CardTitle className="text-2xl text-white">Позиционирование и стратегия артиста</CardTitle>
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                    <Badge className="bg-gradient-purple text-white text-lg px-4 py-2 border-0 w-fit">1 модуль</Badge>
+                    <CardTitle className="text-xl sm:text-2xl text-white leading-tight">Позиционирование и стратегия артиста</CardTitle>
                   </div>
-                  <CardDescription className="text-xl text-yellow-400 font-semibold">ЗАЧЕМ СНИМАТЬ?</CardDescription>
+                  <CardDescription className="text-lg sm:text-xl text-yellow-400 font-semibold mt-2">ЗАЧЕМ СНИМАТЬ?</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
@@ -310,11 +310,11 @@ const Index = () => {
 
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
                 <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <Badge className="bg-gradient-purple text-white text-lg px-4 py-2 border-0">2 модуль</Badge>
-                    <CardTitle className="text-2xl text-white">Контент для роста слушателей</CardTitle>
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                    <Badge className="bg-gradient-purple text-white text-lg px-4 py-2 border-0 w-fit">2 модуль</Badge>
+                    <CardTitle className="text-xl sm:text-2xl text-white leading-tight">Контент для роста слушателей</CardTitle>
                   </div>
-                  <CardDescription className="text-xl text-yellow-400 font-semibold">ЧТО СНИМАТЬ?</CardDescription>
+                  <CardDescription className="text-lg sm:text-xl text-yellow-400 font-semibold mt-2">ЧТО СНИМАТЬ?</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
@@ -336,11 +336,11 @@ const Index = () => {
 
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
                 <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <Badge className="bg-gradient-purple text-white text-lg px-4 py-2 border-0">3 модуль</Badge>
-                    <CardTitle className="text-2xl text-white">Артист = Блогер</CardTitle>
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                    <Badge className="bg-gradient-purple text-white text-lg px-4 py-2 border-0 w-fit">3 модуль</Badge>
+                    <CardTitle className="text-xl sm:text-2xl text-white leading-tight">Артист = Блогер</CardTitle>
                   </div>
-                  <CardDescription className="text-xl text-yellow-400 font-semibold">КАК СНИМАТЬ?</CardDescription>
+                  <CardDescription className="text-lg sm:text-xl text-yellow-400 font-semibold mt-2">КАК СНИМАТЬ?</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
