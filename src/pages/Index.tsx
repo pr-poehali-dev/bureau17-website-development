@@ -416,11 +416,7 @@ const Index = () => {
               </Card>
             </div>
 
-            <div className="text-center mt-12">
-              <p className="text-lg text-gray-300 mb-6">Остались вопросы?</p>
-              <p className="text-gray-300 mb-6">Ты можешь записаться на личную презентацию обучения и подробное обсуждение</p>
-              <Button variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/10">Выбрать время</Button>
-            </div>
+
           </div>
         </div>
       </section>
