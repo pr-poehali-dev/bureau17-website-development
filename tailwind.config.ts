@@ -112,6 +112,10 @@ export default {
 				'text-shimmer': {
 					'0%': { backgroundPosition: '-200% center' },
 					'100%': { backgroundPosition: '200% center' }
+				},
+				'blue-glow': {
+					'0%, 100%': { boxShadow: '0 0 30px rgba(14, 165, 233, 0.3), 0 0 60px rgba(14, 165, 233, 0.1)' },
+					'50%': { boxShadow: '0 0 40px rgba(14, 165, 233, 0.5), 0 0 80px rgba(14, 165, 233, 0.2)' }
 				}
 			},
 			animation: {
@@ -123,17 +127,19 @@ export default {
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
 				'float': 'float 3s ease-in-out infinite',
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
-				'text-shimmer': 'text-shimmer 2s ease-in-out infinite'
+				'text-shimmer': 'text-shimmer 2s ease-in-out infinite',
+				'blue-glow': 'blue-glow 3s ease-in-out infinite'
 			},
 			fontFamily: {
 				'heading': ['Montserrat', 'sans-serif'],
 				'body': ['Open Sans', 'sans-serif']
 			},
 			backgroundImage: {
-				'gradient-dark': 'radial-gradient(circle at 15% 85%, #0ea5e9 0%, #0284c7 15%, #000000 35%), radial-gradient(circle at 85% 15%, #06b6d4 0%, #0891b2 20%, #000000 40%), radial-gradient(circle at 50% 50%, #0369a1 0%, #0284c7 25%, #000000 50%), radial-gradient(circle at 25% 30%, #3b82f6 0%, #1d4ed8 30%, #000000 60%)',
+				'gradient-dark': 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 20%, #1e40af 40%, #1e1b4b 70%, #000000 100%)',
 				'gradient-text': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 25%, #d97706 50%, #b45309 75%, #92400e 100%)',
 				'gradient-blue': 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
-				'gradient-gold': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)'
+				'gradient-gold': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)',
+				'gradient-gold-glow': 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%)'
 			},
 			backgroundSize: {
 				'200': '200% 200%'
