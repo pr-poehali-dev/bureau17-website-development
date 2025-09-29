@@ -444,8 +444,20 @@ const Index = () => {
                       <span className="text-gray-300">Полезные гайды и чек-листы</span>
                     </li>
                     <li className="flex items-start space-x-2">
-                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-300">Проверка контента и заданий от кураторов</span>
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Проверка контента и заданий от кураторов и Авантюриста</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Артист-напарник</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Модуль по применению ИИ для артиста</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Сертификат о получении статуса АРТИСТА</span>
                     </li>
                   </ul>
                   <div className="space-y-2 pt-4">
