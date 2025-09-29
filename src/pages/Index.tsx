@@ -214,10 +214,7 @@ const Index = () => {
               <h3 className="text-heading text-white mb-12">ВОТ КАК ОНА РАБОТАЕТ:</h3>
               
               <div className="relative">
-                {/* Connecting Line */}
-                <div className="absolute left-1/2 top-20 bottom-20 w-0 border-l-2 border-dashed border-yellow-400 opacity-40 transform -translate-x-px hidden md:block"></div>
-                
-                <div className="space-y-16 relative z-10">
+                <div className="space-y-16 relative">
                   {/* Step 1 */}
                   <div className="flex flex-col items-center relative">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
@@ -225,8 +222,10 @@ const Index = () => {
                         <span className="text-2xl font-bold text-white">1</span>
                       </div>
                     </div>
-                    <h4 className="text-subheading text-white mb-2">Стратегия</h4>
-                    <p className="text-body text-gray-300 max-w-xs text-center">
+                    {/* Line segment 1-2 */}
+                    <div className="absolute left-1/2 top-20 w-0.5 h-16 bg-gradient-to-b from-yellow-400 to-yellow-500 opacity-40 transform -translate-x-px hidden md:block"></div>
+                    <h4 className="text-subheading text-white mb-2 bg-black px-4 relative z-10">Стратегия</h4>
+                    <p className="text-body text-gray-300 max-w-xs text-center bg-black px-4 py-2 relative z-10">
                       Получаешь огромную выборку залетевших роликов конкурентов
                     </p>
                   </div>
@@ -238,8 +237,10 @@ const Index = () => {
                         <span className="text-2xl font-bold text-white">2</span>
                       </div>
                     </div>
-                    <h4 className="text-subheading text-white mb-2">Трек</h4>
-                    <p className="text-body text-gray-300 max-w-xs text-center">
+                    {/* Line segment 2-3 */}
+                    <div className="absolute left-1/2 top-20 w-0.5 h-16 bg-gradient-to-b from-yellow-400 to-yellow-500 opacity-40 transform -translate-x-px hidden md:block"></div>
+                    <h4 className="text-subheading text-white mb-2 bg-black px-4 relative z-10">Трек</h4>
+                    <p className="text-body text-gray-300 max-w-xs text-center bg-black px-4 py-2 relative z-10">
                       Снимаешь на похожие темы
                     </p>
                   </div>
@@ -251,8 +252,10 @@ const Index = () => {
                         <span className="text-2xl font-bold text-white">3</span>
                       </div>
                     </div>
-                    <h4 className="text-subheading text-white mb-2">Сниппет</h4>
-                    <p className="text-body text-gray-300 max-w-xs text-center">
+                    {/* Line segment 3-4 */}
+                    <div className="absolute left-1/2 top-24 w-0.5 h-16 bg-gradient-to-b from-yellow-400 to-yellow-600 opacity-40 transform -translate-x-px hidden md:block"></div>
+                    <h4 className="text-subheading text-white mb-2 bg-black px-4 relative z-10">Сниппет</h4>
+                    <p className="text-body text-gray-300 max-w-xs text-center bg-black px-4 py-2 relative z-10">
                       Оптимизируешь под алгоритмы
                     </p>
                   </div>
