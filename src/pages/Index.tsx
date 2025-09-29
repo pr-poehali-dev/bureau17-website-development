@@ -731,9 +731,55 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-12 bg-black text-white overflow-x-hidden">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-heading mb-4">EVOLUTION OF THE ARTIST</h2>
-          <p className="text-body text-gray-300">Эволюция артиста - твой путь к миллионам прослушиваний</p>
+        <div className="container mx-auto px-4">
+          {/* Main Footer Content */}
+          <div className="text-center mb-8">
+            <h2 className="text-heading mb-4">EVOLUTION OF THE ARTIST</h2>
+            <p className="text-body text-gray-300">Эволюция артиста - твой путь к миллионам прослушиваний</p>
+          </div>
+          
+          {/* Contact Info */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-white">ИП Лыков Денис</h3>
+              <p className="text-gray-300 text-sm">ИНН: 236803016740</p>
+            </div>
+            
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-white flex items-center justify-center md:justify-start">
+                <Icon name="Mail" className="w-4 h-4 mr-2" />
+                E-mail:
+              </h3>
+              <a href="mailto:buro17.commerce@yandex.ru" className="text-gray-300 text-sm hover:text-yellow-400 transition-colors">
+                buro17.commerce@yandex.ru
+              </a>
+            </div>
+            
+            <div>
+              <h3 className="text-lg font-semibold mb-3 text-white flex items-center justify-center md:justify-start">
+                <Icon name="MessageCircle" className="w-4 h-4 mr-2" />
+                Тех. поддержка в TG:
+              </h3>
+              <a href="https://t.me/by_avanturistt" target="_blank" rel="noopener noreferrer" className="text-gray-300 text-sm hover:text-yellow-400 transition-colors">
+                https://t.me/by_avanturistt
+              </a>
+            </div>
+          </div>
+          
+          {/* Copyright */}
+          <div className="border-t border-gray-800 pt-6">
+            <div className="text-center text-sm text-gray-400 space-y-3">
+              <p>
+                © Лыков Денис, 2025. Все права защищены. Любое использование либо копирование материалов или подборки материалов сайта, элементов дизайна и оформления допускается лишь с письменного разрешения правообладателя и только со ссылкой на источник: 
+                <a href={window.location.href} className="text-yellow-400 hover:text-yellow-300 transition-colors ml-1">
+                  {window.location.href}
+                </a>
+              </p>
+              <p className="text-xs text-gray-500">
+                * Meta признана экстремистской организацией в России
+              </p>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
