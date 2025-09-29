@@ -156,7 +156,7 @@ const Index = () => {
           <div className={`transition-all duration-1000 ${authorSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-4xl font-bold mb-8 text-white">Меня зовут <span className="bg-gradient-text bg-clip-text text-transparent">Денис Авантюрист</span></h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              Я занимаюсь музыкой с 2016 года. Начав с 50 прослушиваний и первых треков, я пришёл к 2млн подписчиков и набрал более 5млн прослушиваний на своих песнях, даже не смотря на свой дефект в речи
+              Я занимаюсь музыкой с 2016 года. Мои песни набирали по 50 прослушиваний, но мне удалось дойти до 2.000.000+ подписчиков и набрать более 5.000.000 прослушиваний своих треков, даже не смотря на дефекты в речи
             </p>
             
             {/* Denis Portrait with Blue Glow */}
