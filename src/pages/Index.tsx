@@ -302,15 +302,15 @@ const Index = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start space-x-3">
                       <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
+                      <span className="text-gray-300">как найти СВОЙ формат</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
+                      <span className="text-gray-300">что снимать ДО и ПОСЛЕ релиза</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
                       <span className="text-gray-300">как выделяться на фоне других</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                      <span className="text-gray-300">как найти свои сильные стороны</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                      <span className="text-gray-300">как это поможет в генерации идей</span>
                     </li>
                   </ul>
                 </CardContent>
