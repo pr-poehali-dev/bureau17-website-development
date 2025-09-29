@@ -86,7 +86,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className={`text-center mb-16 transition-all duration-1000 ${heroSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300 break-words">
-              ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">АРТИСТОВ</span>
+              ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">АРТИСТА</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 max-w-4xl mx-auto px-2">
               Твои песни заслуживают миллионы прослушиваний.<br className="hidden sm:block" />
@@ -172,7 +172,7 @@ const Index = () => {
               </div>
             </div>
             <p className="text-lg text-gray-300 leading-relaxed">
-              <span className="font-semibold bg-gradient-text bg-clip-text text-transparent">Эволюция артистов</span> – это стратегия из 17+ практических уроков с примерами и заданиями. Получи весь мой опыт, все наработки и знания за 30 дней в одном продукте
+              <span className="font-semibold bg-gradient-text bg-clip-text text-transparent">Эволюция артиста</span> – это стратегия из 17+ практических уроков с примерами и заданиями. Получи весь мой опыт, все наработки и знания за 30 дней в одном продукте
             </p>
           </div>
         </div>
@@ -624,7 +624,7 @@ const Index = () => {
       <footer className="py-12 bg-black text-white overflow-x-hidden">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Бюро17</h2>
-          <p className="text-gray-300">Эволюция артистов - твой путь к миллионам прослушиваний</p>
+          <p className="text-gray-300">Эволюция артиста - твой путь к миллионам прослушиваний</p>
         </div>
       </footer>
     </div>
