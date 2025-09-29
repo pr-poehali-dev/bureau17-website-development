@@ -286,7 +286,7 @@ const Index = () => {
             <h2 className="text-heading text-center mb-4 text-white">ПРОГРАММА КУРСА</h2>
             <p className="text-subheading text-center text-gray-300 mb-12">
               3 модуля по продвижению трека через вертикальный контент<br />
-              Более 17 лекций и практических заданий, которые приведут тебя к результату
+              Которые приведут тебя к результату
             </p>
 
             <div className="space-y-8">
