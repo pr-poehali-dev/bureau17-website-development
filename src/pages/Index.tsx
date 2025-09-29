@@ -23,7 +23,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50 overflow-x-hidden">
         <div className="container mx-auto px-4 py-4 max-w-full">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Бюро17</h1>
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Evolution of the artist</h1>
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
@@ -628,7 +628,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 bg-black text-white overflow-x-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-heading mb-4">БЮРО17</h2>
+          <h2 className="text-heading mb-4">EVOLUTION OF THE ARTIST</h2>
           <p className="text-body text-gray-300">Эволюция артиста - твой путь к миллионам прослушиваний</p>
         </div>
       </footer>
