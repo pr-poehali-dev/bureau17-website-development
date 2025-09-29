@@ -232,6 +232,8 @@ const Index = () => {
 
                   {/* Step 2 */}
                   <div className="flex flex-col items-center relative">
+                    {/* Line segment above step 2 */}
+                    <div className="absolute left-1/2 -top-12 w-1 h-12 bg-gradient-to-b from-yellow-400/60 via-yellow-500/60 to-yellow-600/60 transform -translate-x-px hidden md:block rounded-full shadow-lg" style={{boxShadow: '0 0 10px rgba(234, 179, 8, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)'}}></div>
                     <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
                       <div className="w-20 h-20 rounded-full bg-black flex items-center justify-center">
                         <span className="text-2xl font-bold text-white">2</span>
@@ -247,6 +249,8 @@ const Index = () => {
 
                   {/* Step 3 */}
                   <div className="flex flex-col items-center relative">
+                    {/* Line segment above step 3 */}
+                    <div className="absolute left-1/2 -top-12 w-1 h-12 bg-gradient-to-b from-yellow-400/60 via-yellow-500/60 to-yellow-600/60 transform -translate-x-px hidden md:block rounded-full shadow-lg" style={{boxShadow: '0 0 10px rgba(234, 179, 8, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)'}}></div>
                     <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
                       <div className="w-24 h-24 rounded-full bg-black flex items-center justify-center">
                         <span className="text-2xl font-bold text-white">3</span>
@@ -262,6 +266,8 @@ const Index = () => {
 
                   {/* Step 4 */}
                   <div className="flex flex-col items-center relative">
+                    {/* Line segment above step 4 */}
+                    <div className="absolute left-1/2 -top-10 w-1 h-10 bg-gradient-to-b from-yellow-500/60 via-yellow-400/60 to-blue-400/60 transform -translate-x-px hidden md:block rounded-full shadow-lg" style={{boxShadow: '0 0 10px rgba(234, 179, 8, 0.4), 0 0 15px rgba(59, 130, 246, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2)'}}></div>
                     <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6" style={{boxShadow: '0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(59, 130, 246, 0.4)'}}>
                       <div className="w-28 h-28 rounded-full bg-black flex items-center justify-center">
                         <span className="text-3xl font-bold text-white">4</span>
