@@ -111,6 +111,24 @@
   }
 }
 
+/* Typography System - 3 sizes only */
+@layer utilities {
+  /* ЗАГОЛОВОК (всегда большими буквами) */
+  .text-heading {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-wide;
+  }
+
+  /* ПОДЗАГОЛОВОК */
+  .text-subheading {
+    @apply text-xl sm:text-2xl md:text-3xl font-semibold;
+  }
+
+  /* ОСНОВНОЙ ТЕКСТ */
+  .text-body {
+    @apply text-base sm:text-lg leading-relaxed;
+  }
+}
+
 /* Hide scrollbar for mobile */
 @layer utilities {
   .scrollbar-hide {

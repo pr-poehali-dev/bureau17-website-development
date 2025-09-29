@@ -85,14 +85,14 @@ const Index = () => {
       <section ref={heroSection.ref} className="pt-24 pb-16 px-4 overflow-x-hidden">
         <div className="container mx-auto max-w-6xl">
           <div className={`text-center mb-16 transition-all duration-1000 ${heroSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300 break-words">
+            <h1 className="text-heading text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300 break-words">
               ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">АРТИСТА</span>
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 max-w-4xl mx-auto px-2">
+            <p className="text-subheading text-gray-300 mb-4 max-w-4xl mx-auto px-2">
               Твои песни заслуживают миллионы прослушиваний.<br className="hidden sm:block" />
               <span className="block sm:inline"> Я покажу, как этого добиться за 30 дней</span>
             </p>
-            <p className="text-base md:text-lg text-gray-400 mb-8 px-2">
+            <p className="text-body text-gray-400 mb-8 px-2">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
             <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-6 sm:px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
@@ -108,7 +108,7 @@ const Index = () => {
       <section ref={targetSection.ref} className="py-16 bg-black/40 backdrop-blur-sm overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className={`transition-all duration-1000 ${targetSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">Кому подходит?</h2>
+            <h2 className="text-heading text-center mb-12 text-white">КОМУ ПОДХОДИТ?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-blue-400/50 transition-all">
                 <CardHeader>
@@ -154,8 +154,8 @@ const Index = () => {
       <section ref={authorSection.ref} className="py-16">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <div className={`transition-all duration-1000 ${authorSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold mb-8 text-white">Меня зовут <span className="bg-gradient-text bg-clip-text text-transparent">Денис Авантюрист</span></h2>
-            <p className="text-lg text-gray-300 leading-relaxed mb-8">
+            <h2 className="text-heading mb-8 text-white">МЕНЯ ЗОВУТ <span className="bg-gradient-text bg-clip-text text-transparent">ДЕНИС АВАНТЮРИСТ</span></h2>
+            <p className="text-body text-gray-300 leading-relaxed mb-8">
               Я занимаюсь музыкой с 2016 года. Мои песни набирали по 50 прослушиваний, но мне удалось дойти до 2.000.000+ подписчиков и набрать более 5.000.000 прослушиваний своих треков, даже не смотря на дефекты в речи
             </p>
             
@@ -171,7 +171,7 @@ const Index = () => {
                 />
               </div>
             </div>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <p className="text-body text-gray-300 leading-relaxed">
               <span className="font-semibold bg-gradient-text bg-clip-text text-transparent">Эволюция артиста</span> – это стратегия из 17+ практических уроков с примерами и заданиями. Получи весь мой опыт, все наработки и знания за 30 дней в одном продукте
             </p>
           </div>
@@ -182,8 +182,8 @@ const Index = () => {
       <section ref={programSection.ref} id="program" className="py-16 bg-black/40 backdrop-blur-sm">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className={`transition-all duration-1000 ${programSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold text-center mb-4 text-white">Чему ты научишься?</h2>
-            <p className="text-xl text-center text-gray-300 mb-12">
+            <h2 className="text-heading text-center mb-4 text-white">ЧЕМУ ТЫ НАУЧИШЬСЯ?</h2>
+            <p className="text-subheading text-center text-gray-300 mb-12">
               Не просто «снимать сниппеты», а <span className="bg-gradient-text bg-clip-text text-transparent font-semibold">управлять своей карьерой</span>.
             </p>
 
@@ -211,7 +211,7 @@ const Index = () => {
             </div>
 
             <div className="text-center mb-16">
-              <h3 className="text-3xl font-bold text-white mb-12">Вот как она работает:</h3>
+              <h3 className="text-heading text-white mb-12">ВОТ КАК ОНА РАБОТАЕТ:</h3>
               
               <div className="space-y-16">
                 {/* Step 1 */}
@@ -221,7 +221,7 @@ const Index = () => {
                       <span className="text-2xl font-bold text-white">1</span>
                     </div>
                   </div>
-                  <h4 className="text-xl font-semibold text-white mb-2">Стратегия</h4>
+                  <h4 className="text-subheading text-white mb-2">Стратегия</h4>
                   <p className="text-gray-300 max-w-xs">
                     Получаешь огромную выборку залетевших роликов конкурентов
                   </p>
@@ -234,7 +234,7 @@ const Index = () => {
                       <span className="text-2xl font-bold text-white">2</span>
                     </div>
                   </div>
-                  <h4 className="text-xl font-semibold text-white mb-2">Трек</h4>
+                  <h4 className="text-subheading text-white mb-2">Трек</h4>
                   <p className="text-gray-300 max-w-xs">
                     Снимаешь на похожие темы
                   </p>
@@ -247,7 +247,7 @@ const Index = () => {
                       <span className="text-2xl font-bold text-white">3</span>
                     </div>
                   </div>
-                  <h4 className="text-xl font-semibold text-white mb-2">Сниппет</h4>
+                  <h4 className="text-subheading text-white mb-2">Сниппет</h4>
                   <p className="text-gray-300 max-w-xs">
                     Оптимизируешь под алгоритмы
                   </p>
@@ -260,7 +260,7 @@ const Index = () => {
                       <span className="text-3xl font-bold text-white">4</span>
                     </div>
                   </div>
-                  <h4 className="text-xl font-semibold bg-gradient-text bg-clip-text text-transparent mb-2">Промо</h4>
+                  <h4 className="text-subheading bg-gradient-text bg-clip-text text-transparent mb-2">Промо</h4>
                   <p className="bg-gradient-text bg-clip-text text-transparent max-w-md font-semibold text-lg" style={{textShadow: '0 0 15px rgba(59, 130, 246, 0.5), 0 0 30px rgba(59, 130, 246, 0.3), 0 0 45px rgba(59, 130, 246, 0.1)'}}>
                     Получаешь миллионы просмотров и тысячи слушателей
                   </p>
@@ -275,8 +275,8 @@ const Index = () => {
       <section ref={courseSection.ref} className="py-16">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className={`transition-all duration-1000 ${courseSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold text-center mb-4 text-white">Программа курса</h2>
-            <p className="text-xl text-center text-gray-300 mb-12">
+            <h2 className="text-heading text-center mb-4 text-white">ПРОГРАММА КУРСА</h2>
+            <p className="text-subheading text-center text-gray-300 mb-12">
               3 модуля по продвижению трека через вертикальный контент<br />
               Более 17 лекций и практических заданий, которые приведут тебя к результату
             </p>
@@ -362,12 +362,12 @@ const Index = () => {
             </div>
 
             <div className="text-center mt-12 p-8 bg-white/10 backdrop-blur-sm rounded-xl border border-yellow-400/20">
-              <h3 className="text-3xl font-bold text-white mb-4">ГЛАВНЫЙ РЕЗУЛЬТАТ</h3>
+              <h3 className="text-heading text-white mb-4">ГЛАВНЫЙ РЕЗУЛЬТАТ</h3>
               <p className="text-2xl font-semibold bg-gradient-text bg-clip-text text-transparent">РОСТ ПРОСМОТРОВ и ПРОСЛУШИВАНИЙ</p>
             </div>
 
             <div className="mt-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">Внутри тебя ждёт:</h3>
+              <h3 className="text-heading text-white mb-6">ВНУТРИ ТЕБЯ ЖДЁТ:</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <Icon name="FileText" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
@@ -391,7 +391,7 @@ const Index = () => {
       <section ref={tariffsSection.ref} id="tariffs" className="py-16 bg-black/40 backdrop-blur-sm overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className={`transition-all duration-1000 ${tariffsSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">ТАРИФЫ</h2>
+            <h2 className="text-heading text-center mb-12 text-white">ТАРИФЫ</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
               {/* Дебют */}
@@ -539,7 +539,7 @@ const Index = () => {
       <section ref={guaranteesSection.ref} className="py-16 overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className={`transition-all duration-1000 ${guaranteesSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">Ты получаешь <span className="bg-gradient-text bg-clip-text text-transparent">2 гарантии</span></h2>
+            <h2 className="text-heading text-center mb-12 text-white">ТЫ ПОЛУЧАЕШЬ <span className="bg-gradient-text bg-clip-text text-transparent">2 ГАРАНТИИ</span></h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
@@ -573,8 +573,8 @@ const Index = () => {
       {/* Final CTA */}
       <section className="py-16 bg-black overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h2 className="text-4xl font-bold mb-8 text-white">
-            «Если ты не попробуешь сейчас — через год будешь на том же месте, где сегодня. Только с ещё одной стопкой «треков» и завистью к тем, кто <span className="bg-gradient-text bg-clip-text text-transparent">рискнул</span>».
+          <h2 className="text-heading mb-8 text-white">
+            «ЕСЛИ ТЫ НЕ ПОПРОБУЕШЬ СЕЙЧАС — ЧЕРЕЗ ГОД БУДЕШЬ НА ТОМ ЖЕ МЕСТЕ, ГДЕ СЕГОДНЯ. ТОЛЬКО С ЕЩЁ ОДНОЙ СТОПКОЙ «ТРЕКОВ» И ЗАВИСТЬЮ К ТЕМ, КТО <span className="bg-gradient-text bg-clip-text text-transparent">РИСКНУЛ</span>».
           </h2>
           <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
             Стать артистом сейчас
@@ -586,7 +586,7 @@ const Index = () => {
       <section ref={faqSection.ref} id="faq" className="py-16 bg-black/40 backdrop-blur-sm overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className={`transition-all duration-1000 ${faqSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-4xl font-bold text-center mb-12 text-white">Частые вопросы</h2>
+            <h2 className="text-heading text-center mb-12 text-white">ЧАСТЫЕ ВОПРОСЫ</h2>
             
             <div className="space-y-6">
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-gradient-gold transition-all duration-500 hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]">
@@ -623,8 +623,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 bg-black text-white overflow-x-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Бюро17</h2>
-          <p className="text-gray-300">Эволюция артиста - твой путь к миллионам прослушиваний</p>
+          <h2 className="text-heading mb-4">БЮРО17</h2>
+          <p className="text-body text-gray-300">Эволюция артиста - твой путь к миллионам прослушиваний</p>
         </div>
       </footer>
     </div>
