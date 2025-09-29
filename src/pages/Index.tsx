@@ -369,17 +369,17 @@ const Index = () => {
               </Card>
             </div>
 
-            <div className="text-center mt-12 p-8">
-              <h3 className="text-heading text-white mb-4 relative">
-                <span className="relative z-10 drop-shadow-[0_0_20px_rgba(59,130,246,0.8)] text-shadow-[0_0_30px_rgba(59,130,246,0.6)]" 
-                      style={{ textShadow: '0 0 20px rgba(59,130,246,0.8), 0 0 40px rgba(59,130,246,0.4), 0 0 60px rgba(59,130,246,0.2)' }}>
+            <div className="text-center mt-12 p-8 relative">
+              <div className="absolute inset-0 bg-cyan-400/20 blur-3xl scale-150 animate-pulse"></div>
+              <div className="relative z-10">
+                <h3 className="text-heading text-white mb-2" 
+                    style={{ textShadow: '0 0 20px rgba(59,130,246,0.8), 0 0 40px rgba(59,130,246,0.4), 0 0 60px rgba(59,130,246,0.2)' }}>
                   ГЛАВНЫЙ РЕЗУЛЬТАТ
-                </span>
-                <div className="absolute inset-0 bg-cyan-400/20 blur-2xl scale-150 animate-pulse"></div>
-              </h3>
-              <p className="text-2xl font-semibold bg-gradient-text bg-clip-text text-transparent relative">
-                <span className="drop-shadow-[0_0_15px_rgba(255,215,0,0.6)]">РОСТ ПРОСМОТРОВ и ПРОСЛУШИВАНИЙ</span>
-              </p>
+                </h3>
+                <p className="text-xl font-semibold bg-gradient-text bg-clip-text text-transparent">
+                  РОСТ ПРОСМОТРОВ И ПРОСЛУШИВАНИЙ
+                </p>
+              </div>
             </div>
 
             <div className="mt-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-8">
