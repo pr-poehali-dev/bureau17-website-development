@@ -328,11 +328,11 @@ const Index = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start space-x-3">
                       <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                      <span className="text-gray-300">что снимать до и после релиза</span>
+                      <span className="text-gray-300">как найти СВОЙ формат</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                      <span className="text-gray-300">как найти свой формат</span>
+                      <span className="text-gray-300">что снимать ДО и ПОСЛЕ релиза</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
