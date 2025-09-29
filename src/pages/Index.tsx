@@ -191,21 +191,21 @@ const Index = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Icon name="CheckCircle" className="w-6 h-6 text-yellow-400 mt-1 flex-shrink-0" />
-                  <p className="text-gray-300">Соберёшь свой уникальный образ и чёткое позиционирование артиста</p>
+                  <p className="text-body text-gray-300">Продвигать свою музыку современным способом и управлять своей карьерой</p>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Icon name="CheckCircle" className="w-6 h-6 text-yellow-400 mt-1 flex-shrink-0" />
-                  <p className="text-gray-300">Растить блог и набирать аудиторию через Reels, TikTok и YouTube</p>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <Icon name="CheckCircle" className="w-6 h-6 text-yellow-400 mt-1 flex-shrink-0" />
-                  <p className="text-gray-300">Создавать контент-план и бесконечный поток идей</p>
+                  <p className="text-body text-gray-300">Вести блог и привлекать аудиторию через Reels, TikTok и YouTube</p>
                 </div>
               </div>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Icon name="CheckCircle" className="w-6 h-6 text-yellow-400 mt-1 flex-shrink-0" />
-                  <p className="text-gray-300">Запускать релиз песни с контентом и промо, чтобы трек реально слушали</p>
+                  <p className="text-body text-gray-300">Сделаешь релиз песни с контентом и промо, чтобы трек реально слушали</p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <Icon name="CheckCircle" className="w-6 h-6 text-yellow-400 mt-1 flex-shrink-0" />
+                  <p className="text-body text-gray-300">Создавать контент-план и бесконечный поток идей</p>
                 </div>
               </div>
             </div>
