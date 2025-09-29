@@ -522,6 +522,22 @@ const Index = () => {
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">Сертификат о получении статуса "АРТИСТА"</span>
                     </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Эксклюзивные онлайн ZOOM-лекции от Авантюриста</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Личная работа с Авантюристом</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Индивидуальная стратегия и позиционирование</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
+                    </li>
                   </ul>
                   <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30">
                     <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 30 (осталось 19)</p>
