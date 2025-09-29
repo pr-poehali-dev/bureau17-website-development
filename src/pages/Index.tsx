@@ -540,15 +540,43 @@ const Index = () => {
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-300">Всё из тарифа "Артист"</span>
+                      <span className="text-gray-300">3 модуля по продвижению релиза</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-300">Доступ в сообщество "СЦЕНА" навсегда</span>
+                      <span className="text-gray-300">Эксклюзивные онлайн ZOOM-лекции от Авантюриста</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Доступ в закрытое сообщество "СЦЕНА" навсегда</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Полезные гайды и чек-листы</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Геймификация обучения</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Личная работа с Авантюристом</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Индивидуальная стратегия и позиционирование</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Разработка личного ИИ асистента</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">Поддержка каждого трека в соц. сетях Авантюриста</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">Сертификат о получении статуса АРТИСТА</span>
                     </li>
                   </ul>
                   <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30">
