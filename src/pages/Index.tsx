@@ -213,57 +213,62 @@ const Index = () => {
             <div className="text-center mb-16">
               <h3 className="text-heading text-white mb-12">ВОТ КАК ОНА РАБОТАЕТ:</h3>
               
-              <div className="space-y-16">
-                {/* Step 1 */}
-                <div className="flex flex-col items-center">
-                  <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
-                    <div className="w-20 h-20 rounded-full bg-black flex items-center justify-center">
-                      <span className="text-2xl font-bold text-white">1</span>
+              <div className="relative">
+                {/* Connecting Line */}
+                <div className="absolute left-1/2 top-20 bottom-20 w-0.5 bg-gradient-to-b from-yellow-400 via-yellow-500 to-yellow-600 opacity-30 transform -translate-x-px hidden md:block"></div>
+                
+                <div className="space-y-16 relative z-10">
+                  {/* Step 1 */}
+                  <div className="flex flex-col items-center relative">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
+                      <div className="w-20 h-20 rounded-full bg-black flex items-center justify-center">
+                        <span className="text-2xl font-bold text-white">1</span>
+                      </div>
                     </div>
+                    <h4 className="text-subheading text-white mb-2">Стратегия</h4>
+                    <p className="text-body text-gray-300 max-w-xs text-center">
+                      Получаешь огромную выборку залетевших роликов конкурентов
+                    </p>
                   </div>
-                  <h4 className="text-subheading text-white mb-2">Стратегия</h4>
-                  <p className="text-gray-300 max-w-xs">
-                    Получаешь огромную выборку залетевших роликов конкурентов
-                  </p>
-                </div>
 
-                {/* Step 2 */}
-                <div className="flex flex-col items-center">
-                  <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
-                    <div className="w-20 h-20 rounded-full bg-black flex items-center justify-center">
-                      <span className="text-2xl font-bold text-white">2</span>
+                  {/* Step 2 */}
+                  <div className="flex flex-col items-center relative">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
+                      <div className="w-20 h-20 rounded-full bg-black flex items-center justify-center">
+                        <span className="text-2xl font-bold text-white">2</span>
+                      </div>
                     </div>
+                    <h4 className="text-subheading text-white mb-2">Трек</h4>
+                    <p className="text-body text-gray-300 max-w-xs text-center">
+                      Снимаешь на похожие темы
+                    </p>
                   </div>
-                  <h4 className="text-subheading text-white mb-2">Трек</h4>
-                  <p className="text-gray-300 max-w-xs">
-                    Снимаешь на похожие темы
-                  </p>
-                </div>
 
-                {/* Step 3 */}
-                <div className="flex flex-col items-center">
-                  <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
-                    <div className="w-24 h-24 rounded-full bg-black flex items-center justify-center">
-                      <span className="text-2xl font-bold text-white">3</span>
+                  {/* Step 3 */}
+                  <div className="flex flex-col items-center relative">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6">
+                      <div className="w-24 h-24 rounded-full bg-black flex items-center justify-center">
+                        <span className="text-2xl font-bold text-white">3</span>
+                      </div>
                     </div>
+                    <h4 className="text-subheading text-white mb-2">Сниппет</h4>
+                    <p className="text-body text-gray-300 max-w-xs text-center">
+                      Оптимизируешь под алгоритмы
+                    </p>
                   </div>
-                  <h4 className="text-subheading text-white mb-2">Сниппет</h4>
-                  <p className="text-gray-300 max-w-xs">
-                    Оптимизируешь под алгоритмы
-                  </p>
-                </div>
 
-                {/* Step 4 */}
-                <div className="flex flex-col items-center">
-                  <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6" style={{boxShadow: '0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(59, 130, 246, 0.4)'}}>
-                    <div className="w-28 h-28 rounded-full bg-black flex items-center justify-center">
-                      <span className="text-3xl font-bold text-white">4</span>
+                  {/* Step 4 */}
+                  <div className="flex flex-col items-center relative">
+                    <div className="relative p-0.5 bg-gradient-gold rounded-full mb-6" style={{boxShadow: '0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(59, 130, 246, 0.4)'}}>
+                      <div className="w-28 h-28 rounded-full bg-black flex items-center justify-center">
+                        <span className="text-3xl font-bold text-white">4</span>
+                      </div>
                     </div>
+                    <h4 className="text-subheading bg-gradient-text bg-clip-text text-transparent mb-2">Промо</h4>
+                    <p className="bg-gradient-text bg-clip-text text-transparent max-w-md font-semibold text-center" style={{textShadow: '0 0 15px rgba(59, 130, 246, 0.5), 0 0 30px rgba(59, 130, 246, 0.3), 0 0 45px rgba(59, 130, 246, 0.1)'}}>
+                      Получаешь миллионы просмотров и тысячи слушателей
+                    </p>
                   </div>
-                  <h4 className="text-subheading bg-gradient-text bg-clip-text text-transparent mb-2">Промо</h4>
-                  <p className="bg-gradient-text bg-clip-text text-transparent max-w-md font-semibold text-lg" style={{textShadow: '0 0 15px rgba(59, 130, 246, 0.5), 0 0 30px rgba(59, 130, 246, 0.3), 0 0 45px rgba(59, 130, 246, 0.1)'}}>
-                    Получаешь миллионы просмотров и тысячи слушателей
-                  </p>
                 </div>
               </div>
             </div>
