@@ -413,7 +413,7 @@ const Index = () => {
               {/* Дебют */}
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all h-full flex flex-col">
                 <CardHeader className="text-center">
-                  <CardTitle className="text-2xl text-white">Дебют</CardTitle>
+                  <CardTitle className="text-2xl text-white">ДЕБЮТ</CardTitle>
                   <div className="text-center mt-4">
                     <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent">17.000₽</div>
                     <div className="text-gray-400 line-through">27.000₽</div>
@@ -458,6 +458,22 @@ const Index = () => {
                     <li className="flex items-start space-x-2">
                       <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-500 line-through">Сертификат о получении статуса АРТИСТА</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Эксклюзивные онлайн ZOOM-лекции от Авантюриста</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Личная работа с Авантюристом</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Индивидуальная стратегия и позиционирование</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
                     </li>
                   </ul>
                   <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30">
