@@ -699,6 +699,16 @@ const Index = () => {
               <h3 className="text-xl md:text-2xl text-white font-medium">
                 Мы платим процент за вас
               </h3>
+              
+              {/* Mobile explanation - visible only on mobile */}
+              <div className="lg:hidden bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+                <p className="text-white/90 text-base leading-relaxed">
+                  <span className="font-semibold text-blue-400">Как это работает:</span><br/>
+                  Выбираете товар → оформляете рассрочку → получаете товар сразу → платите равными частями без процентов. 
+                  Банк берёт все расходы на себя.
+                </p>
+              </div>
+              
               <div className="pt-4">
                 <Button 
                   size="lg" 
