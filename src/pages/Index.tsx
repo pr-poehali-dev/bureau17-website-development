@@ -666,7 +666,7 @@ const Index = () => {
       {/* Final CTA */}
       <section className="py-16 bg-black overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h2 className="text-heading mb-8 text-white">
+          <h2 className="text-2xl md:text-3xl mb-8 text-white leading-relaxed">
             «Если сейчас не попробуешь — через год ты останешься на том же месте, где сегодня. Только с ещё одной стопкой треков и завистью к тем, кто <span className="bg-gradient-text bg-clip-text text-transparent">рискнул</span>»
           </h2>
           <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
