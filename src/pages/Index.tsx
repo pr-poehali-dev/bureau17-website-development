@@ -223,7 +223,7 @@ const Index = () => {
                       </div>
                     </div>
                     {/* Line segment 1-2 */}
-                    <div className="absolute left-1/2 top-20 w-0.5 h-16 bg-gradient-to-b from-yellow-400 to-yellow-500 opacity-40 transform -translate-x-px hidden md:block"></div>
+                    <div className="absolute left-1/2 top-[90px] w-1 h-12 bg-gradient-to-b from-yellow-400/60 via-yellow-500/60 to-yellow-600/60 transform -translate-x-px hidden md:block rounded-full shadow-lg" style={{boxShadow: '0 0 10px rgba(234, 179, 8, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)'}}></div>
                     <h4 className="text-subheading text-white mb-2 bg-black px-4 relative z-10">Стратегия</h4>
                     <p className="text-body text-gray-300 max-w-xs text-center bg-black px-4 py-2 relative z-10">
                       Получаешь огромную выборку залетевших роликов конкурентов
@@ -238,7 +238,7 @@ const Index = () => {
                       </div>
                     </div>
                     {/* Line segment 2-3 */}
-                    <div className="absolute left-1/2 top-20 w-0.5 h-16 bg-gradient-to-b from-yellow-400 to-yellow-500 opacity-40 transform -translate-x-px hidden md:block"></div>
+                    <div className="absolute left-1/2 top-[90px] w-1 h-12 bg-gradient-to-b from-yellow-400/60 via-yellow-500/60 to-yellow-600/60 transform -translate-x-px hidden md:block rounded-full shadow-lg" style={{boxShadow: '0 0 10px rgba(234, 179, 8, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)'}}></div>
                     <h4 className="text-subheading text-white mb-2 bg-black px-4 relative z-10">Трек</h4>
                     <p className="text-body text-gray-300 max-w-xs text-center bg-black px-4 py-2 relative z-10">
                       Снимаешь на похожие темы
@@ -253,7 +253,7 @@ const Index = () => {
                       </div>
                     </div>
                     {/* Line segment 3-4 */}
-                    <div className="absolute left-1/2 top-24 w-0.5 h-16 bg-gradient-to-b from-yellow-400 to-yellow-600 opacity-40 transform -translate-x-px hidden md:block"></div>
+                    <div className="absolute left-1/2 top-[102px] w-1 h-10 bg-gradient-to-b from-yellow-400/60 via-yellow-500/60 to-blue-400/60 transform -translate-x-px hidden md:block rounded-full shadow-lg" style={{boxShadow: '0 0 10px rgba(234, 179, 8, 0.4), 0 0 15px rgba(59, 130, 246, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2)'}}></div>
                     <h4 className="text-subheading text-white mb-2 bg-black px-4 relative z-10">Сниппет</h4>
                     <p className="text-body text-gray-300 max-w-xs text-center bg-black px-4 py-2 relative z-10">
                       Оптимизируешь под алгоритмы
