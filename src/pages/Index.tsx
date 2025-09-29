@@ -685,6 +685,72 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Рассрочка */}
+      <section className="py-16 bg-black/60 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            {/* Left Column - Title and Button */}
+            <div className="text-center lg:text-left space-y-6">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                <span className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
+                  Рассрочка
+                </span>
+              </h2>
+              <h3 className="text-xl md:text-2xl text-white font-medium">
+                Мы платим процент за вас
+              </h3>
+              <div className="pt-4">
+                <Button 
+                  size="lg" 
+                  className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 hover:from-green-500 hover:via-blue-500 hover:to-purple-600 text-white px-8 py-4 text-lg rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
+                  style={{boxShadow: '0 0 30px rgba(34, 197, 94, 0.4), 0 0 60px rgba(59, 130, 246, 0.3), 0 0 90px rgba(168, 85, 247, 0.2)'}}
+                >
+                  ОФОРМИТЬ РАССРОЧКУ
+                </Button>
+              </div>
+            </div>
+
+            {/* Right Column - Benefits List */}
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                  <Icon name="Check" className="w-4 h-4 text-white font-bold" />
+                </div>
+                <span className="text-white text-lg">Без процентов на 3, 6 или 12 месяцев</span>
+              </div>
+
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                  <Icon name="Check" className="w-4 h-4 text-white font-bold" />
+                </div>
+                <span className="text-white text-lg">Первый взнос <span className="font-semibold text-green-400">только через месяц</span>, сейчас ничего не платите</span>
+              </div>
+
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                  <Icon name="Check" className="w-4 h-4 text-white font-bold" />
+                </div>
+                <span className="text-white text-lg">Возможно только для <span className="font-semibold text-blue-400">граждан России</span></span>
+              </div>
+
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                  <Icon name="Check" className="w-4 h-4 text-white font-bold" />
+                </div>
+                <span className="text-white text-lg">По паспорту, <span className="font-semibold text-purple-400">18+</span></span>
+              </div>
+
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                  <Icon name="Check" className="w-4 h-4 text-white font-bold" />
+                </div>
+                <span className="text-white text-lg">С СНГ и Крымом банк <span className="font-semibold text-red-400">не работает</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 bg-black overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl text-center">
