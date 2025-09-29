@@ -215,7 +215,7 @@ const Index = () => {
               
               <div className="relative">
                 {/* Connecting Line */}
-                <div className="absolute left-1/2 top-20 bottom-20 w-0.5 bg-gradient-to-b from-yellow-400 via-yellow-500 to-yellow-600 opacity-30 transform -translate-x-px hidden md:block"></div>
+                <div className="absolute left-1/2 top-20 bottom-20 w-0 border-l-2 border-dashed border-yellow-400 opacity-40 transform -translate-x-px hidden md:block"></div>
                 
                 <div className="space-y-16 relative z-10">
                   {/* Step 1 */}
