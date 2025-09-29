@@ -692,7 +692,7 @@ const Index = () => {
             {/* Left Column - Title and Button */}
             <div className="text-center lg:text-left space-y-6">
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-text bg-clip-text text-transparent">
                   Рассрочка
                 </span>
               </h2>
@@ -702,8 +702,8 @@ const Index = () => {
               <div className="pt-4">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 hover:from-green-500 hover:via-blue-500 hover:to-purple-600 text-white px-8 py-4 text-lg rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
-                  style={{boxShadow: '0 0 30px rgba(34, 197, 94, 0.4), 0 0 60px rgba(59, 130, 246, 0.3), 0 0 90px rgba(168, 85, 247, 0.2)'}}
+                  className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-8 py-4 text-lg rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
+                  style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
                 >
                   ОФОРМИТЬ РАССРОЧКУ
                 </Button>
@@ -712,36 +712,36 @@ const Index = () => {
 
             {/* Right Column - Benefits List */}
             <div className="space-y-4">
-              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center shadow-lg" style={{boxShadow: '0 0 10px rgba(14, 165, 233, 0.3)'}}>
                   <Icon name="Check" className="w-4 h-4 text-white font-bold" />
                 </div>
                 <span className="text-white text-lg">Без процентов на 3, 6 или 12 месяцев</span>
               </div>
 
-              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center shadow-lg" style={{boxShadow: '0 0 10px rgba(14, 165, 233, 0.3)'}}>
                   <Icon name="Check" className="w-4 h-4 text-white font-bold" />
                 </div>
-                <span className="text-white text-lg">Первый взнос <span className="font-semibold text-green-400">только через месяц</span>, сейчас ничего не платите</span>
+                <span className="text-white text-lg">Первый взнос <span className="font-semibold text-yellow-400">только через месяц</span>, сейчас ничего не платите</span>
               </div>
 
-              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center shadow-lg" style={{boxShadow: '0 0 10px rgba(14, 165, 233, 0.3)'}}>
                   <Icon name="Check" className="w-4 h-4 text-white font-bold" />
                 </div>
                 <span className="text-white text-lg">Возможно только для <span className="font-semibold text-blue-400">граждан России</span></span>
               </div>
 
-              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center shadow-lg" style={{boxShadow: '0 0 10px rgba(14, 165, 233, 0.3)'}}>
                   <Icon name="Check" className="w-4 h-4 text-white font-bold" />
                 </div>
-                <span className="text-white text-lg">По паспорту, <span className="font-semibold text-purple-400">18+</span></span>
+                <span className="text-white text-lg">По паспорту, <span className="font-semibold text-yellow-400">18+</span></span>
               </div>
 
-              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10">
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all">
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center shadow-lg" style={{boxShadow: '0 0 10px rgba(14, 165, 233, 0.3)'}}>
                   <Icon name="Check" className="w-4 h-4 text-white font-bold" />
                 </div>
                 <span className="text-white text-lg">С СНГ и Крымом банк <span className="font-semibold text-red-400">не работает</span></span>
