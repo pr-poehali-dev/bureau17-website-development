@@ -827,7 +827,7 @@ const Index = () => {
           {/* Contact Info */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
             <div>
-              <h3 className="text-lg font-semibold mb-3 text-white">ИП Лыков Денис</h3>
+              <h3 className="text-lg font-semibold mb-3 text-white">© Лыков Денис</h3>
               <p className="text-gray-300 text-sm">ИНН: 236803016740</p>
             </div>
             
