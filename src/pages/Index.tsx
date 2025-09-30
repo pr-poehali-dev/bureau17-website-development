@@ -759,13 +759,6 @@ const Index = () => {
                 </div>
                 <span className="text-white text-lg">По паспорту, <span className="font-semibold text-yellow-400">18+</span></span>
               </div>
-
-              <div className="flex items-center space-x-3 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-blue-400/30 transition-all">
-                <div className="flex-shrink-0 w-6 h-6 bg-gradient-gold rounded-full flex items-center justify-center shadow-lg" style={{boxShadow: '0 0 10px rgba(14, 165, 233, 0.3)'}}>
-                  <Icon name="Check" className="w-4 h-4 text-white font-bold" />
-                </div>
-                <span className="text-white text-lg">С СНГ и Крымом банк <span className="font-semibold text-red-400">не работает</span></span>
-              </div>
             </div>
           </div>
         </div>
