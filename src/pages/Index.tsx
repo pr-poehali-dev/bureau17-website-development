@@ -114,7 +114,7 @@ const Index = () => {
               </div>
             </div>
 
-            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-6 sm:px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={buttonGlowStyle}>
+            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-8 sm:px-12 md:px-16 lg:px-20 py-5 md:py-7 lg:py-8 text-xl md:text-2xl lg:text-3xl rounded-full border-0 hover:scale-105 transition-all duration-500 font-bold shadow-2xl" style={buttonGlowStyle}>
               Стать артистом
             </Button>
           </div>
