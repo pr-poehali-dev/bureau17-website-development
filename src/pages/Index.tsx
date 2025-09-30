@@ -515,10 +515,14 @@ const Index = () => {
                   </ul>
                   <div className="space-y-2 pt-4 mt-auto">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
+                      <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
+                        <a href="https://payform.ru/bq9kTml/" target="_blank" rel="noopener noreferrer">Оплатить</a>
+                      </Button>
                     </div>
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">В рассрочку</Button>
+                      <Button asChild variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
+                        <a href="https://payform.ru/bq9kTml/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
+                      </Button>
                     </div>
                   </div>
                 </CardContent>
@@ -590,10 +594,14 @@ const Index = () => {
                   </div>
                   <div className="space-y-2 pt-4 mt-auto">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
+                      <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
+                        <a href="https://payform.ru/oh9kTJf/" target="_blank" rel="noopener noreferrer">Оплатить</a>
+                      </Button>
                     </div>
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">В рассрочку</Button>
+                      <Button asChild variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
+                        <a href="https://payform.ru/oh9kTJf/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
+                      </Button>
                     </div>
                   </div>
                 </CardContent>
@@ -655,10 +663,14 @@ const Index = () => {
                   </div>
                   <div className="space-y-2 pt-4 mt-auto">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
+                      <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
+                        <a href="https://payform.ru/rh9kUxe/" target="_blank" rel="noopener noreferrer">Оплатить</a>
+                      </Button>
                     </div>
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">В рассрочку</Button>
+                      <Button asChild variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
+                        <a href="https://payform.ru/rh9kUxe/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
+                      </Button>
                     </div>
                   </div>
                 </CardContent>
