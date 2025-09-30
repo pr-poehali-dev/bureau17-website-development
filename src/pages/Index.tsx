@@ -35,7 +35,9 @@ const Index = () => {
               <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Программа</a>
               <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Тарифы</a>
               <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">FAQ</a>
-              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 text-sm lg:text-base px-3 lg:px-4" style={buttonGlowStyle}>Стать артистом</Button>
+              <Button asChild className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 text-sm lg:text-base px-3 lg:px-4" style={buttonGlowStyle}>
+                <a href="#tariffs">Стать артистом</a>
+              </Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -74,11 +76,11 @@ const Index = () => {
                   FAQ
                 </a>
                 <Button 
+                  asChild
                   className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 transition-all duration-500 text-base w-full mt-2" 
                   style={buttonGlowStyle}
-                  onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Стать артистом
+                  <a href="#tariffs" onClick={() => setIsMobileMenuOpen(false)}>Стать артистом</a>
                 </Button>
               </div>
             </div>
@@ -114,8 +116,8 @@ const Index = () => {
               </div>
             </div>
 
-            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-8 sm:px-12 md:px-16 lg:px-20 py-5 md:py-7 lg:py-8 text-xl md:text-2xl lg:text-3xl rounded-full border-0 hover:scale-105 transition-all duration-500 font-bold shadow-2xl" style={buttonGlowStyle}>
-              Стать артистом
+            <Button asChild size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-8 sm:px-12 md:px-16 lg:px-20 py-5 md:py-7 lg:py-8 text-xl md:text-2xl lg:text-3xl rounded-full border-0 hover:scale-105 transition-all duration-500 font-bold shadow-2xl" style={buttonGlowStyle}>
+              <a href="#tariffs">Стать артистом</a>
             </Button>
           </div>
 
@@ -814,8 +816,8 @@ const Index = () => {
           <h2 className="text-2xl md:text-3xl mb-8 text-white leading-relaxed">
             «Если сейчас не попробуешь — через год ты останешься на том же месте, где сегодня. Только с ещё одной стопкой треков и завистью к тем, кто <span className="bg-gradient-text bg-clip-text text-transparent">рискнул</span>»
           </h2>
-          <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
-            Стать артистом сейчас
+          <Button asChild size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
+            <a href="#tariffs">Стать артистом сейчас</a>
           </Button>
         </div>
       </section>
