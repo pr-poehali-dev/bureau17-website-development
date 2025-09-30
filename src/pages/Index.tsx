@@ -354,9 +354,21 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Result Image - Liza Schultz Example */}
-            <div className="mt-12 flex justify-center">
-              <div className="relative max-w-2xl w-full">
+            {/* Result Images */}
+            <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-8">
+              {/* New Image - Instagram Reels Stats */}
+              <div className="relative max-w-md w-full">
+                <div className="absolute inset-0 bg-gradient-gold/20 blur-3xl scale-110"></div>
+                <img 
+                  src="https://cdn.poehali.dev/files/26016d01-fcc6-4b18-8fb0-3a5850691c8f.png"
+                  alt="Статистика видео Reels - рост просмотров"
+                  className="relative w-full h-auto object-contain rounded-2xl shadow-2xl"
+                  style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.4))' }}
+                />
+              </div>
+              
+              {/* Existing Image - Liza Schultz Example */}
+              <div className="relative max-w-md w-full">
                 <div className="absolute inset-0 bg-gradient-gold/20 blur-3xl scale-110"></div>
                 <img 
                   src="https://cdn.poehali.dev/files/84b79da0-5bf5-4dad-ab49-e27dcc75273a.png"
