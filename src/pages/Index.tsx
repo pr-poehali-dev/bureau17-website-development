@@ -864,7 +864,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */
+      {/* Footer */}
       <footer className="py-12 bg-black text-white overflow-x-hidden">
         <div className="container mx-auto px-4">
           {/* Main Footer Content */}
