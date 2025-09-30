@@ -445,7 +445,7 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-300">Более 17 лекций и практических заданий</span>
+                      <span className="text-gray-300">Более 17 лекций от АВАНТЮРИСТА и практических заданий</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
