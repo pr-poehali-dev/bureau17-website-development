@@ -792,7 +792,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Final CTA */
+      {/* Final CTA */}
       <section className="py-16 bg-black overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-2xl md:text-3xl mb-8 text-white leading-relaxed">
