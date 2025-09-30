@@ -554,6 +554,10 @@ const Index = () => {
                       <span className="text-gray-300">Сертификат о получении статуса "АРТИСТА"</span>
                     </li>
                     <li className="flex items-start space-x-2">
+                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-gray-300">2 групповые онлайн-встречи в ZOOM с АВАНТЮРИСТОМ</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
                       <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-500 line-through">Личная работа с Авантюристом</span>
                     </li>
