@@ -716,28 +716,7 @@ const Index = () => {
                 Мы платим процент за вас
               </h3>
               
-              {/* Mobile explanation - visible only on mobile */}
-              <div className="lg:hidden bg-white/5 backdrop-blur-sm rounded-lg p-5 border border-white/10">
-                <h4 className="font-semibold text-blue-400 text-lg mb-4">Вот как это работает:</h4>
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-gold rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
-                    <span className="text-white/90 text-base">Выбираете товар и оформляете рассрочку онлайн</span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-gold rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
-                    <span className="text-white/90 text-base">Получаете товар сразу, не дожидаясь выплат</span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-gold rounded-full flex items-center justify-center text-white font-bold text-sm">3</div>
-                    <span className="text-white/90 text-base">Платите равными частями <span className="font-semibold text-yellow-400">без процентов</span></span>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-gold rounded-full flex items-center justify-center text-white font-bold text-sm">4</div>
-                    <span className="text-white/90 text-base">Банк покрывает все расходы за вас</span>
-                  </div>
-                </div>
-              </div>
+
               
               <div className="pt-4">
                 <Button 
