@@ -487,9 +487,6 @@ const Index = () => {
                       <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
                     </li>
                   </ul>
-                  <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30">
-                    <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 50 (осталось 31)</p>
-                  </div>
                   <div className="space-y-2 pt-4 mt-auto">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">Оплатить</Button>
