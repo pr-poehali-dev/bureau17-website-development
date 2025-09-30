@@ -452,9 +452,9 @@ const Index = () => {
           <div className={`transition-all duration-1000 ${tariffsSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h2 className="text-heading text-center mb-12 text-white">ТАРИФЫ</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 md:items-stretch">
               {/* Дебют */}
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all h-full flex flex-col">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl text-white">ДЕБЮТ</CardTitle>
                   <div className="text-center mt-4">
@@ -463,9 +463,11 @@ const Index = () => {
                     <div className="text-sm text-yellow-400 font-semibold">по промокоду buro17</div>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-4 flex-grow flex flex-col">
-                  <p className="text-gray-300 font-medium">Цель – быстро внедрить фишки по продвижению и получить ощутимый результат за короткое время.</p>
-                  <ul className="space-y-2 text-sm">
+                <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
+                  <div>
+                    <p className="text-gray-300 font-medium">Цель – быстро внедрить фишки по продвижению и получить ощутимый результат за короткое время.</p>
+                  </div>
+                  <ul className="space-y-2 text-sm flex-grow">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">3 модуля по продвижению релиза</span>
@@ -515,7 +517,7 @@ const Index = () => {
                       <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
                     </li>
                   </ul>
-                  <div className="space-y-2 pt-4 mt-auto">
+                  <div className="space-y-2 pt-4">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
                         <a href="https://payform.ru/bq9kTml/" target="_blank" rel="noopener noreferrer">Оплатить</a>
@@ -531,7 +533,7 @@ const Index = () => {
               </Card>
 
               {/* Артист */}
-              <Card className="bg-white/10 backdrop-blur-sm border-2 border-yellow-400/50 relative h-full flex flex-col">
+              <Card className="bg-white/10 backdrop-blur-sm border-2 border-yellow-400/50 relative flex flex-col">
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <Badge className="bg-gradient-text text-black px-4 py-1 font-bold">ПОПУЛЯРНЫЙ</Badge>
                 </div>
@@ -543,9 +545,11 @@ const Index = () => {
                     <div className="text-sm text-yellow-400 font-semibold">по промокоду buro17</div>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-4 flex-grow flex flex-col">
-                  <p className="text-gray-300 font-medium">Работа в группе. Старт нового потока – 10 октября</p>
-                  <ul className="space-y-2 text-sm">
+                <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
+                  <div>
+                    <p className="text-gray-300 font-medium">Работа в группе. Старт нового потока – 10 октября</p>
+                  </div>
+                  <ul className="space-y-2 text-sm flex-grow">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">3 модуля по продвижению релиза</span>
@@ -591,10 +595,11 @@ const Index = () => {
                       <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
                     </li>
                   </ul>
-                  <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30">
-                    <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 30 (осталось 19)</p>
-                  </div>
-                  <div className="space-y-2 pt-4 mt-auto">
+                  <div>
+                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
+                      <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 30 (осталось 19)</p>
+                    </div>
+                    <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
                         <a href="https://payform.ru/oh9kTJf/" target="_blank" rel="noopener noreferrer">Оплатить</a>
@@ -606,11 +611,12 @@ const Index = () => {
                       </Button>
                     </div>
                   </div>
+                  </div>
                 </CardContent>
               </Card>
 
               {/* Хитмейкер */}
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all h-full flex flex-col">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl text-white">ХИТМЕЙКЕР</CardTitle>
                   <div className="text-center mt-4">
@@ -619,9 +625,11 @@ const Index = () => {
                     <div className="text-sm text-yellow-400 font-semibold">по промокоду buro17</div>
                   </div>
                 </CardHeader>
-                <CardContent className="space-y-4 flex-grow flex flex-col">
-                  <p className="text-gray-300 font-medium">Индивидуальная работа с наставником. Максимальный результат за короткий срок.</p>
-                  <ul className="space-y-2 text-sm">
+                <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
+                  <div>
+                    <p className="text-gray-300 font-medium">Индивидуальная работа с наставником. Максимальный результат за короткий срок.</p>
+                  </div>
+                  <ul className="space-y-2 text-sm flex-grow">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">3 модуля по продвижению релиза</span>
@@ -660,10 +668,11 @@ const Index = () => {
                       <span className="text-gray-300">Сертификат о получении статуса АРТИСТА</span>
                     </li>
                   </ul>
-                  <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30">
-                    <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 7 (осталось 6)</p>
-                  </div>
-                  <div className="space-y-2 pt-4 mt-auto">
+                  <div>
+                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
+                      <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 7 (осталось 6)</p>
+                    </div>
+                    <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
                         <a href="https://payform.ru/rh9kUxe/" target="_blank" rel="noopener noreferrer">Оплатить</a>
@@ -674,6 +683,7 @@ const Index = () => {
                         <a href="https://payform.ru/rh9kUxe/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
                       </Button>
                     </div>
+                  </div>
                   </div>
                 </CardContent>
               </Card>
