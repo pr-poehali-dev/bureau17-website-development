@@ -135,9 +135,9 @@ export default {
 				'slide-in-left': 'slide-in-left 0.6s ease-out',
 				'float': 'float 3s ease-in-out infinite',
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
-				'text-shimmer': 'text-shimmer 2s ease-in-out infinite',
-				'blue-glow': 'blue-glow 45s linear infinite',
-				'bg-shift': 'bg-shift 20s ease-in-out infinite'
+				'text-shimmer': 'text-shimmer 3s ease-in-out infinite',
+				'blue-glow': 'blue-glow 60s linear infinite',
+				'bg-shift': 'bg-shift 30s ease-in-out infinite'
 			},
 			fontFamily: {
 				'heading': ['Montserrat', 'sans-serif'],

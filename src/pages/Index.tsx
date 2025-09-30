@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import Icon from "@/components/ui/icon";
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 const Index = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,20 +17,25 @@ const Index = () => {
   const guaranteesSection = useScrollAnimation();
   const faqSection = useScrollAnimation();
 
+  // Мемоизация стиля кнопки для уменьшения рендеров
+  const buttonGlowStyle = useMemo(() => ({
+    boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'
+  }), []);
+
   return (
-    <div className="min-h-screen bg-gradient-dark bg-size-200 animate-bg-shift overflow-x-hidden overflow-y-auto scrollbar-hide">
+    <div className="min-h-screen bg-gradient-dark overflow-x-hidden overflow-y-auto scrollbar-hide">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm border-b border-blue-500/20 z-50 overflow-x-hidden">
         <div className="container mx-auto px-4 py-4 max-w-full">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">Evolution of the artist</h1>
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-text bg-clip-text text-transparent">ЭВОЛЮЦИЯ АРТИСТА</h1>
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
               <a href="#program" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Программа</a>
               <a href="#tariffs" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">Тарифы</a>
               <a href="#faq" className="text-gray-300 hover:text-yellow-400 transition-colors hover:scale-105 duration-300 text-sm lg:text-base">FAQ</a>
-              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 text-sm lg:text-base px-3 lg:px-4" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>Стать артистом</Button>
+              <Button className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 hover:scale-102 transition-all duration-500 text-sm lg:text-base px-3 lg:px-4" style={buttonGlowStyle}>Стать артистом</Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -70,7 +75,7 @@ const Index = () => {
                 </a>
                 <Button 
                   className="bg-gradient-gold hover:bg-gradient-gold/90 text-white border-0 transition-all duration-500 text-base w-full mt-2" 
-                  style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
+                  style={buttonGlowStyle}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Стать артистом
@@ -86,7 +91,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className={`text-center mb-16 transition-all duration-1000 ${heroSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
             <h1 className="text-heading text-white mb-6 leading-tight hover:scale-105 transition-transform duration-300 break-words">
-              ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent bg-size-200 animate-text-shimmer">АРТИСТА</span>
+              ЭВОЛЮЦИЯ <span className="bg-gradient-text bg-clip-text text-transparent">АРТИСТА</span>
             </h1>
             <p className="text-subheading text-gray-300 mb-4 max-w-4xl mx-auto px-2">
               Твои песни заслуживают миллионы прослушиваний.<br className="hidden sm:block" />
@@ -95,7 +100,7 @@ const Index = () => {
             <p className="text-body text-gray-400 mb-8 px-2">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
-            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-6 sm:px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}>
+            <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-6 sm:px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={buttonGlowStyle}>
               Стать артистом
             </Button>
           </div>
@@ -423,7 +428,7 @@ const Index = () => {
                   <div className="text-center mt-4">
                     <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent">17.000₽</div>
                     <div className="text-gray-400 line-through">27.000₽</div>
-                    <div className="text-sm text-yellow-400 font-semibold">по промокоду БЮРО17</div>
+                    <div className="text-sm text-yellow-400 font-semibold">по промокоду buro17</div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-grow flex flex-col">
@@ -506,7 +511,7 @@ const Index = () => {
                   <div className="text-center mt-4">
                     <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent">47.000₽</div>
                     <div className="text-gray-400 line-through">57.000₽</div>
-                    <div className="text-sm text-yellow-400 font-semibold">по промокоду БЮРО17</div>
+                    <div className="text-sm text-yellow-400 font-semibold">по промокоду buro17</div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-grow flex flex-col">
@@ -582,7 +587,7 @@ const Index = () => {
                   <div className="text-center mt-4">
                     <div className="text-4xl font-bold bg-gradient-text bg-clip-text text-transparent">117.000₽</div>
                     <div className="text-gray-400 line-through">127.000₽</div>
-                    <div className="text-sm text-yellow-400 font-semibold">по промокоду БЮРО17</div>
+                    <div className="text-sm text-yellow-400 font-semibold">по промокоду buro17</div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-grow flex flex-col">

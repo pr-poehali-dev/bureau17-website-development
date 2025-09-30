@@ -101,6 +101,21 @@
     @apply bg-background text-foreground font-body;
   }
 
+  /* Performance optimization */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Hardware acceleration for animations */
+  .animate-slide-up,
+  .animate-bg-shift,
+  .animate-text-shimmer {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
   h1,
   h2,
   h3,
@@ -138,5 +153,16 @@
 
   .scrollbar-hide::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
+  }
+
+  /* Reduce animation for better performance */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
