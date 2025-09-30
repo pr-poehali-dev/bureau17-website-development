@@ -502,10 +502,6 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-500 line-through">Эксклюзивные онлайн ZOOM-лекции от Авантюриста</span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-500 line-through">Личная работа с Авантюристом</span>
                     </li>
                     <li className="flex items-start space-x-2">
@@ -578,10 +574,6 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-500 line-through">Эксклюзивные онлайн ZOOM-лекции от Авантюриста</span>
-                    </li>
-                    <li className="flex items-start space-x-2">
-                      <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-500 line-through">Личная работа с Авантюристом</span>
                     </li>
                     <li className="flex items-start space-x-2">
@@ -624,10 +616,7 @@ const Index = () => {
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">3 модуля по продвижению релиза</span>
                     </li>
-                    <li className="flex items-start space-x-2">
-                      <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-300">Эксклюзивные онлайн ZOOM-лекции от Авантюриста</span>
-                    </li>
+
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-300">Доступ в закрытое сообщество "СЦЕНА" навсегда</span>
