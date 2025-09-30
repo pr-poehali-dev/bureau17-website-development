@@ -100,6 +100,20 @@ const Index = () => {
             <p className="text-body text-gray-400 mb-8 px-2">
               Я артист, который сделал результат сначала себе. Теперь твоя очередь.
             </p>
+
+            {/* YouTube Awards Photo */}
+            <div className="mb-8 flex justify-center">
+              <div className="relative max-w-lg w-full">
+                <div className="absolute inset-0 bg-gradient-gold/20 blur-3xl scale-110"></div>
+                <img 
+                  src="https://cdn.poehali.dev/files/8b6cffcd-d096-4060-9ebd-56fc97d2ac84.png"
+                  alt="Денис Авантюрист с наградами YouTube"
+                  className="relative w-full h-auto object-contain rounded-2xl shadow-2xl"
+                  style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.4))' }}
+                />
+              </div>
+            </div>
+
             <Button size="lg" className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-6 sm:px-8 md:px-12 py-4 md:py-6 text-lg md:text-xl rounded-full border-0 hover:scale-102 transition-all duration-500" style={buttonGlowStyle}>
               Стать артистом
             </Button>
