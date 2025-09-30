@@ -373,7 +373,7 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-3">
                       <Icon name="ArrowRight" className="w-5 h-5 text-yellow-400 mt-1 flex-shrink-0" />
-                      <span className="text-gray-300">формула полярных коротких роликов</span>
+                      <span className="text-gray-300">формула популярных коротких роликов</span>
                     </li>
                   </ul>
                 </CardContent>
