@@ -394,7 +394,7 @@ const Index = () => {
             </div>
 
             {/* Result Image - Liza Schultz Example */}
-            <div className="mt-12 flex justify-center">
+            <div className="mt-12 flex flex-col items-center">
               <div className="relative max-w-2xl w-full">
                 <div className="absolute inset-0 bg-gradient-gold/20 blur-3xl scale-110"></div>
                 <img 
@@ -404,6 +404,9 @@ const Index = () => {
                   style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.4))' }}
                 />
               </div>
+              <p className="text-body text-gray-300 text-center mt-6 max-w-2xl">
+                Пример того, как это повлияет на твой блог и твои прослушивания
+              </p>
             </div>
 
             <div className="mt-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-8">
