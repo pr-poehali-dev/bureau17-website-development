@@ -715,11 +715,12 @@ const Index = () => {
               
               <div className="pt-4">
                 <Button 
+                  asChild
                   size="lg" 
                   className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-8 py-4 text-lg rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
                   style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
                 >
-                  ОФОРМИТЬ РАССРОЧКУ
+                  <a href="#tariffs">ОФОРМИТЬ РАССРОЧКУ</a>
                 </Button>
               </div>
             </div>
