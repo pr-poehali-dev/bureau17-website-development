@@ -378,6 +378,20 @@ const Index = () => {
                 />
               </div>
             </div>
+            
+            {/* Third Image - YouTube Videos Stats */}
+            <div className="mt-12 flex justify-center">
+              <div className="relative max-w-xl w-full">
+                <div className="absolute inset-0 bg-gradient-gold/20 blur-3xl scale-110"></div>
+                <img 
+                  src="https://cdn.poehali.dev/files/0752501a-51b4-4765-a80c-b5bc0c5edf15.png"
+                  alt="Статистика видео на YouTube - миллионы просмотров"
+                  className="relative w-full h-auto object-contain rounded-2xl shadow-2xl"
+                  style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.4))' }}
+                />
+              </div>
+            </div>
+            
             <p className="text-body text-gray-300 text-center mt-6">
               Пример того, как это повлияет на твой блог и твои прослушивания
             </p>
