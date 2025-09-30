@@ -286,6 +286,19 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
+            {/* Result Image - Liza Schultz Example */}
+            <div className="mt-16 flex justify-center">
+              <div className="relative max-w-2xl w-full">
+                <div className="absolute inset-0 bg-gradient-gold/20 blur-3xl scale-110"></div>
+                <img 
+                  src="https://cdn.poehali.dev/files/84b79da0-5bf5-4dad-ab49-e27dcc75273a.png"
+                  alt="Пример результата - 579.8 тыс. просмотров за 30 дней"
+                  className="relative w-full h-auto object-contain rounded-2xl shadow-2xl"
+                  style={{ filter: 'drop-shadow(0 0 20px rgba(251, 191, 36, 0.4))' }}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
