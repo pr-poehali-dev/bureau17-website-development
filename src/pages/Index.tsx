@@ -792,29 +792,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Consultation CTA */}
-      <section className="py-16 bg-black/60 backdrop-blur-sm overflow-x-hidden">
-        <div className="container mx-auto px-4 max-w-3xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Остались вопросы?
-          </h2>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            Запишись на личную консультацию с Авантюристом
-          </p>
-          <Button 
-            asChild 
-            size="lg" 
-            className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-10 py-6 text-lg rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
-            style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
-          >
-            <a href="https://t.me/m/tIGFNfyIMDFi" target="_blank" rel="noopener noreferrer">
-              ОТКРЫТЬ ЧАТ
-            </a>
-          </Button>
-        </div>
-      </section>
-
-      {/* Final CTA */}
+      {/* Final CTA */
       <section className="py-16 bg-black overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-2xl md:text-3xl mb-8 text-white leading-relaxed">
@@ -864,7 +842,29 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Consultation CTA */}
+      <section className="py-16 bg-black/60 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Остались вопросы?
+          </h2>
+          <p className="text-xl md:text-2xl text-gray-300 mb-8">
+            Запишись на личную консультацию с Авантюристом
+          </p>
+          <Button 
+            asChild 
+            size="lg" 
+            className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-10 py-6 text-lg rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
+            style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
+          >
+            <a href="https://t.me/m/tIGFNfyIMDFi" target="_blank" rel="noopener noreferrer">
+              ОТКРЫТЬ ЧАТ
+            </a>
+          </Button>
+        </div>
+      </section>
+
+      {/* Footer */
       <footer className="py-12 bg-black text-white overflow-x-hidden">
         <div className="container mx-auto px-4">
           {/* Main Footer Content */}
