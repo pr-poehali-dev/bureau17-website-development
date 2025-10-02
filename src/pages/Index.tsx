@@ -703,22 +703,10 @@ const Index = () => {
       <section ref={guaranteesSection.ref} className="py-16 overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className={`transition-all duration-1000 ${guaranteesSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-heading text-center mb-12 text-white">ТЫ ПОЛУЧАЕШЬ <span className="bg-gradient-text bg-clip-text text-transparent">2 ГАРАНТИИ</span></h2>
+            <h2 className="text-heading text-center mb-12 text-white">ТЫ ПОЛУЧАЕШЬ <span className="bg-gradient-text bg-clip-text text-transparent">ГАРАНТИЮ</span></h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
-                <CardHeader>
-                  <Icon name="Shield" className="w-12 h-12 text-yellow-400 mb-4" />
-                  <CardTitle className="text-xl text-white">Гарантия возврата</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-300">
-                    Если по итогу просмотра первого модуля ты понимаешь, что продукт тебе не подходит, мы возвращаем 100% денег, за вычетом банковской комиссии.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all">
+            <div className="flex justify-center">
+              <Card className="bg-white/10 backdrop-blur-sm border border-white/20 hover:border-yellow-400/50 transition-all max-w-2xl w-full">
                 <CardHeader>
                   <Icon name="Target" className="w-12 h-12 text-yellow-400 mb-4" />
                   <CardTitle className="text-xl text-white">Гарантия результата</CardTitle>
