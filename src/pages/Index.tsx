@@ -396,23 +396,7 @@ const Index = () => {
               Пример того, как это повлияет на твой блог и твои прослушивания
             </p>
 
-            <div className="mt-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-8">
-              <h3 className="text-heading text-white mb-6">ВНУТРИ ТЕБЯ ЖДЁТ:</h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <Icon name="FileText" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-                  <p className="font-semibold text-gray-300">Схема по эффективной публикации релиза</p>
-                </div>
-                <div className="text-center">
-                  <Icon name="List" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-                  <p className="font-semibold text-gray-300">Список всех существующих форматов для артиста</p>
-                </div>
-                <div className="text-center">
-                  <Icon name="Target" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-                  <p className="font-semibold text-gray-300">Подробный план по эффективному выпуску своего релиза</p>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
@@ -665,6 +649,29 @@ const Index = () => {
             </div>
 
 
+          </div>
+        </div>
+      </section>
+
+      {/* Gift Section */}
+      <section className="py-16 bg-black/60 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-8">
+            <h3 className="text-heading text-white mb-6 text-center">МОЙ ПОДАРОК ДЛЯ ТЕБЯ</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <Icon name="FileText" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
+                <p className="font-semibold text-gray-300">Схема эффективной публикации релиза</p>
+              </div>
+              <div className="text-center">
+                <Icon name="List" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
+                <p className="font-semibold text-gray-300">Список всех существующих форм для искусства</p>
+              </div>
+              <div className="text-center">
+                <Icon name="Target" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
+                <p className="font-semibold text-gray-300">Подробный план по эффективному выпуску его релиза</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
