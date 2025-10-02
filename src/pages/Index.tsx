@@ -669,6 +669,28 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Special Offer CTA */}
+      <section className="py-16 bg-black/60 backdrop-blur-sm overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-2xl">
+          <div className="text-center space-y-8">
+            <p className="text-2xl md:text-3xl text-white font-medium">
+              Нажми на кнопку ниже и получи лучшие условия!
+            </p>
+            <div className="flex justify-center">
+              <div className="relative p-0.5 bg-gradient-gold rounded-full inline-block">
+                <Button 
+                  asChild 
+                  size="lg" 
+                  className="bg-black hover:bg-gray-900 text-white border-0 rounded-full px-12 py-6 text-xl font-bold"
+                >
+                  <a href="https://t.me/m/VLGGMwFTMzMy" target="_blank" rel="noopener noreferrer">ХОЧУ</a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Guarantees */}
       <section ref={guaranteesSection.ref} className="py-16 overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-4xl">
