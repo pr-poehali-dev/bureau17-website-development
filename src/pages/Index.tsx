@@ -683,7 +683,7 @@ const Index = () => {
                 className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
                 style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
               >
-                <a href="https://t.me/m/VLGGMwFTMzMy" target="_blank" rel="noopener noreferrer">ХОЧУ</a>
+                <a href="https://t.me/m/VLGGMwFTMzMy" target="_blank" rel="noopener noreferrer">МОЙ ПОДАРОК ДЛЯ ТЕБЯ</a>
               </Button>
             </div>
           </div>
