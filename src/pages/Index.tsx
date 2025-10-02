@@ -231,22 +231,22 @@ const Index = () => {
                 </div>
               </div>
               </div>
+            </div>
 
-              <div className="text-center">
-                <h3 className="text-heading text-white mb-8">ВОТ КАК ОНА РАБОТАЕТ:</h3>
-                <div className="flex flex-wrap justify-center items-center gap-4 text-2xl md:text-3xl lg:text-4xl font-bold text-white px-4">
-                  <span className="bg-gradient-text bg-clip-text text-transparent">Стратегия</span>
-                  <span className="text-yellow-400">→</span>
-                  <span className="bg-gradient-text bg-clip-text text-transparent">Трек</span>
-                  <span className="text-yellow-400">→</span>
-                  <span className="bg-gradient-text bg-clip-text text-transparent">Сниппет</span>
-                  <span className="text-yellow-400">→</span>
-                  <span className="bg-gradient-text bg-clip-text text-transparent">Промо</span>
-                  <span className="text-yellow-400">→</span>
-                  <span className="bg-gradient-text bg-clip-text text-transparent">Контент</span>
-                  <span className="text-yellow-400">→</span>
-                  <span className="bg-gradient-text bg-clip-text text-transparent">Слушатели</span>
-                </div>
+            <div className="text-center mt-12">
+              <h3 className="text-heading text-white mb-8">ВОТ КАК ОНА РАБОТАЕТ:</h3>
+              <div className="flex flex-wrap justify-center items-center gap-4 text-2xl md:text-3xl lg:text-4xl font-bold text-white px-4">
+                <span className="bg-gradient-text bg-clip-text text-transparent">Стратегия</span>
+                <span className="text-yellow-400">→</span>
+                <span className="bg-gradient-text bg-clip-text text-transparent">Трек</span>
+                <span className="text-yellow-400">→</span>
+                <span className="bg-gradient-text bg-clip-text text-transparent">Сниппет</span>
+                <span className="text-yellow-400">→</span>
+                <span className="bg-gradient-text bg-clip-text text-transparent">Промо</span>
+                <span className="text-yellow-400">→</span>
+                <span className="bg-gradient-text bg-clip-text text-transparent">Контент</span>
+                <span className="text-yellow-400">→</span>
+                <span className="bg-gradient-text bg-clip-text text-transparent">Слушатели</span>
               </div>
             </div>
           </div>
