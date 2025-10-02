@@ -203,12 +203,13 @@ const Index = () => {
       <section ref={programSection.ref} id="program" className="py-16 bg-black/40 backdrop-blur-sm">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className={`transition-all duration-1000 ${programSection.isVisible ? 'animate-slide-up' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-heading text-center mb-4 text-white">ЧЕМУ ТЫ НАУЧИШЬСЯ?</h2>
-            <p className="text-subheading text-center text-gray-300 mb-12">
-              Не просто «снимать сниппеты», а <span className="bg-gradient-text bg-clip-text text-transparent font-semibold">управлять своей карьерой</span>.
-            </p>
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-8 mb-12">
+              <h2 className="text-heading text-center mb-4 text-white">ЧЕМУ ТЫ НАУЧИШЬСЯ?</h2>
+              <p className="text-subheading text-center text-gray-300 mb-12">
+                Не просто «снимать сниппеты», а <span className="bg-gradient-text bg-clip-text text-transparent font-semibold">управлять своей карьерой</span>.
+              </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Icon name="CheckCircle" className="w-6 h-6 text-yellow-400 mt-1 flex-shrink-0" />
@@ -229,22 +230,23 @@ const Index = () => {
                   <p className="text-body text-gray-300">Создавать контент-план и бесконечный поток идей</p>
                 </div>
               </div>
-            </div>
+              </div>
 
-            <div className="text-center mb-16">
-              <h3 className="text-heading text-white mb-8">ВОТ КАК ОНА РАБОТАЕТ:</h3>
-              <div className="flex flex-wrap justify-center items-center gap-4 text-2xl md:text-3xl lg:text-4xl font-bold text-white px-4">
-                <span className="bg-gradient-text bg-clip-text text-transparent">Стратегия</span>
-                <span className="text-yellow-400">→</span>
-                <span className="bg-gradient-text bg-clip-text text-transparent">Трек</span>
-                <span className="text-yellow-400">→</span>
-                <span className="bg-gradient-text bg-clip-text text-transparent">Сниппет</span>
-                <span className="text-yellow-400">→</span>
-                <span className="bg-gradient-text bg-clip-text text-transparent">Промо</span>
-                <span className="text-yellow-400">→</span>
-                <span className="bg-gradient-text bg-clip-text text-transparent">Контент</span>
-                <span className="text-yellow-400">→</span>
-                <span className="bg-gradient-text bg-clip-text text-transparent">Слушатели</span>
+              <div className="text-center">
+                <h3 className="text-heading text-white mb-8">ВОТ КАК ОНА РАБОТАЕТ:</h3>
+                <div className="flex flex-wrap justify-center items-center gap-4 text-2xl md:text-3xl lg:text-4xl font-bold text-white px-4">
+                  <span className="bg-gradient-text bg-clip-text text-transparent">Стратегия</span>
+                  <span className="text-yellow-400">→</span>
+                  <span className="bg-gradient-text bg-clip-text text-transparent">Трек</span>
+                  <span className="text-yellow-400">→</span>
+                  <span className="bg-gradient-text bg-clip-text text-transparent">Сниппет</span>
+                  <span className="text-yellow-400">→</span>
+                  <span className="bg-gradient-text bg-clip-text text-transparent">Промо</span>
+                  <span className="text-yellow-400">→</span>
+                  <span className="bg-gradient-text bg-clip-text text-transparent">Контент</span>
+                  <span className="text-yellow-400">→</span>
+                  <span className="bg-gradient-text bg-clip-text text-transparent">Слушатели</span>
+                </div>
               </div>
             </div>
           </div>
