@@ -677,15 +677,14 @@ const Index = () => {
               Нажми на кнопку ниже и получи лучшие условия!
             </p>
             <div className="flex justify-center">
-              <div className="relative p-0.5 bg-gradient-gold rounded-full inline-block">
-                <Button 
-                  asChild 
-                  size="lg" 
-                  className="bg-black hover:bg-gray-900 text-white border-0 rounded-full px-12 py-6 text-xl font-bold"
-                >
-                  <a href="https://t.me/m/VLGGMwFTMzMy" target="_blank" rel="noopener noreferrer">ХОЧУ</a>
-                </Button>
-              </div>
+              <Button 
+                asChild
+                size="lg" 
+                className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
+                style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
+              >
+                <a href="https://t.me/m/VLGGMwFTMzMy" target="_blank" rel="noopener noreferrer">ХОЧУ</a>
+              </Button>
             </div>
           </div>
         </div>
