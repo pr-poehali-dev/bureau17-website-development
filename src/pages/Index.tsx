@@ -421,9 +421,6 @@ const Index = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
-                  <div>
-                    <p className="text-gray-300 font-medium">Цель – быстро внедрить фишки по продвижению и получить ощутимый результат за короткое время.</p>
-                  </div>
                   <ul className="space-y-2 text-sm flex-grow">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
@@ -503,9 +500,6 @@ const Index = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
-                  <div>
-                    <p className="text-gray-300 font-medium">Работа в группе. Старт нового потока – 10 октября</p>
-                  </div>
                   <ul className="space-y-2 text-sm flex-grow">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
@@ -587,9 +581,6 @@ const Index = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
-                  <div>
-                    <p className="text-gray-300 font-medium">Индивидуальная работа с наставником. Максимальный результат за короткий срок.</p>
-                  </div>
                   <ul className="space-y-2 text-sm flex-grow">
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
