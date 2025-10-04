@@ -667,7 +667,7 @@ const Index = () => {
               </div>
               <div className="text-center">
                 <Icon name="List" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
-                <p className="font-semibold text-gray-300">Список всех существующих форм для искусства</p>
+                <p className="font-semibold text-gray-300">Список всех существующих форматов для артиста</p>
               </div>
               <div className="text-center">
                 <Icon name="Target" className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
