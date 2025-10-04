@@ -472,7 +472,7 @@ const Index = () => {
                     </li>
                   </ul>
                   <div>
-                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
+                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4 h-16 flex items-center justify-center">
                       <p className="text-sm font-semibold text-yellow-400">Неограниченный доступ</p>
                     </div>
                     <div className="space-y-2">
@@ -556,8 +556,8 @@ const Index = () => {
                     </li>
                   </ul>
                   <div>
-                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
-                      <p className="text-sm font-semibold text-yellow-400">Старт следующего потока<br />15 октября: мест 17/30</p>
+                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4 h-16 flex items-center justify-center">
+                      <p className="text-sm font-semibold text-yellow-400 text-center">Старт следующего потока<br />15 октября: мест 17/30</p>
                     </div>
                     <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
@@ -638,7 +638,7 @@ const Index = () => {
                     </li>
                   </ul>
                   <div>
-                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
+                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4 h-16 flex items-center justify-center">
                       <p className="text-sm font-semibold text-yellow-400">Доступно мест на октябрь: 3/5</p>
                     </div>
                     <div className="space-y-2">
