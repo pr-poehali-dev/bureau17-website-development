@@ -471,7 +471,7 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
+                      <span className="text-gray-500 line-through">Разработка личного ИИ-ассистента</span>
                     </li>
                   </ul>
                   <div className="space-y-2 pt-4">
@@ -553,7 +553,7 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="X" className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-500 line-through">Разработка личного ИИ асистента</span>
+                      <span className="text-gray-500 line-through">Разработка личного ИИ-ассистента</span>
                     </li>
                   </ul>
                   <div>
@@ -630,7 +630,7 @@ const Index = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-300">Разработка личного ИИ асистента</span>
+                      <span className="text-gray-300">Разработка личного ИИ-ассистента</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <Icon name="Check" className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" />
