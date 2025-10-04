@@ -471,7 +471,11 @@ const Index = () => {
                       <span className="text-gray-500 line-through">Разработка личного ИИ-ассистента</span>
                     </li>
                   </ul>
-                  <div className="space-y-2 pt-4">
+                  <div>
+                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
+                      <p className="text-sm font-semibold text-yellow-400">Неограниченный доступ</p>
+                    </div>
+                    <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
                         <a href="https://payform.ru/bq9kTml/" target="_blank" rel="noopener noreferrer">Оплатить</a>
@@ -482,6 +486,7 @@ const Index = () => {
                         <a href="https://payform.ru/bq9kTml/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
                       </Button>
                     </div>
+                  </div>
                   </div>
                 </CardContent>
               </Card>
@@ -552,7 +557,7 @@ const Index = () => {
                   </ul>
                   <div>
                     <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
-                      <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 30 (осталось 19)</p>
+                      <p className="text-sm font-semibold text-yellow-400">Старт следующего потока<br />15 октября: мест 17/30</p>
                     </div>
                     <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
@@ -634,7 +639,7 @@ const Index = () => {
                   </ul>
                   <div>
                     <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4">
-                      <p className="text-sm font-semibold text-yellow-400">Ограниченное количество мест: 7 (осталось 6)</p>
+                      <p className="text-sm font-semibold text-yellow-400">Доступно мест на октябрь: 3/5</p>
                     </div>
                     <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
