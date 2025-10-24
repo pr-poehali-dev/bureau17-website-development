@@ -695,20 +695,23 @@ const Index = () => {
 
       {/* Special Offer CTA */}
       <section className="py-16 bg-black/60 backdrop-blur-sm overflow-x-hidden">
-        <div className="container mx-auto px-4 max-w-2xl">
-          <div className="text-center space-y-8">
-            <p className="text-2xl md:text-3xl text-white font-medium">
-              Нажми на кнопку ниже и получи лучшие условия!
-            </p>
-            <div className="flex justify-center">
-              <Button 
-                asChild
-                size="lg" 
-                className="bg-gradient-gold hover:bg-gradient-gold/90 text-white px-12 py-6 text-xl rounded-full border-0 font-semibold hover:scale-105 transition-all duration-500 shadow-2xl"
-                style={{boxShadow: '0 0 30px rgba(14, 165, 233, 0.4), 0 0 60px rgba(14, 165, 233, 0.2), 0 0 90px rgba(14, 165, 233, 0.1)'}}
-              >
-                <a href="https://t.me/m/xKlR4wrvYmEy" target="_blank" rel="noopener noreferrer">ПОЛУЧИТЬ</a>
-              </Button>
+        <div className="container mx-auto px-4 max-w-3xl">
+          <div className="bg-gradient-to-br from-yellow-400/20 via-yellow-500/10 to-orange-500/20 border-2 border-yellow-400/50 rounded-3xl p-8 md:p-12 shadow-2xl" style={{boxShadow: '0 0 40px rgba(251, 191, 36, 0.3), 0 0 80px rgba(251, 191, 36, 0.15)'}}>
+            <div className="text-center space-y-8">
+              <p className="text-2xl md:text-4xl text-white font-bold leading-relaxed">
+                Нажми на кнопку ниже и получи<br />
+                <span className="bg-gradient-text bg-clip-text text-transparent text-3xl md:text-5xl">лучшие условия!</span>
+              </p>
+              <div className="flex justify-center">
+                <Button 
+                  asChild
+                  size="lg" 
+                  className="bg-gradient-gold hover:bg-gradient-gold/90 text-black px-16 py-7 text-2xl rounded-full border-0 font-bold hover:scale-110 transition-all duration-500 shadow-2xl"
+                  style={{boxShadow: '0 0 30px rgba(251, 191, 36, 0.6), 0 0 60px rgba(251, 191, 36, 0.3)'}}
+                >
+                  <a href="https://t.me/m/xKlR4wrvYmEy" target="_blank" rel="noopener noreferrer">ПОЛУЧИТЬ</a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
