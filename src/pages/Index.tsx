@@ -646,12 +646,7 @@ const Index = () => {
                     <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
-                        <a href="https://payform.ru/rh9kUxe/" target="_blank" rel="noopener noreferrer">Оплатить</a>
-                      </Button>
-                    </div>
-                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button asChild variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
-                        <a href="https://payform.ru/rh9kUxe/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
+                        <a href="https://t.me/m/YmlSsayHNTg6" target="_blank" rel="noopener noreferrer">Предзапись</a>
                       </Button>
                     </div>
                   </div>
