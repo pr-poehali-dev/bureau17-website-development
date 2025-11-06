@@ -560,18 +560,13 @@ const Index = () => {
                     </li>
                   </ul>
                   <div>
-                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4 h-16 flex items-center justify-center">
-                      <p className="text-sm font-semibold text-yellow-400 text-center">Старт потока<br />5 ноября: мест 12/30</p>
+                    <div className="bg-red-500/20 p-3 rounded-lg border border-red-500/50 mb-4 h-16 flex items-center justify-center">
+                      <p className="text-sm font-semibold text-red-400 text-center">Старт потока состоялся<br />5 ноября. Мест нет!</p>
                     </div>
                     <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
                       <Button asChild className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
-                        <a href="https://payform.ru/oh9kTJf/" target="_blank" rel="noopener noreferrer">Оплатить</a>
-                      </Button>
-                    </div>
-                    <div className="relative p-0.5 bg-gradient-gold rounded-full">
-                      <Button asChild variant="ghost" className="w-full bg-black hover:bg-gray-900 text-white border-0 rounded-full">
-                        <a href="https://payform.ru/oh9kTJf/" target="_blank" rel="noopener noreferrer">В рассрочку</a>
+                        <a href="https://t.me/m/YmlSsayHNTg6" target="_blank" rel="noopener noreferrer">Предзапись на следующий поток</a>
                       </Button>
                     </div>
                   </div>
@@ -645,8 +640,8 @@ const Index = () => {
                     </li>
                   </ul>
                   <div>
-                    <div className="bg-yellow-400/20 p-3 rounded-lg border border-yellow-400/30 mb-4 h-16 flex items-center justify-center">
-                      <p className="text-sm font-semibold text-yellow-400">Доступно мест на ноябрь: 3/5</p>
+                    <div className="bg-red-500/20 p-3 rounded-lg border border-red-500/50 mb-4 h-16 flex items-center justify-center">
+                      <p className="text-sm font-semibold text-red-400">Мест на ноябрь нет!</p>
                     </div>
                     <div className="space-y-2">
                     <div className="relative p-0.5 bg-gradient-gold rounded-full">
